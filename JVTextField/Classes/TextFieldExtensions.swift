@@ -1,4 +1,5 @@
 import JVView
+import JVChangeableValue
 
 public extension UITextField {
     func set(fontType: ContentTypeTextFont, placeholderText: String, placeHolderTextFontType: ContentTypeTextFont) {
@@ -8,5 +9,19 @@ public extension UITextField {
         
         self.font = fontType.font
         self.textColor = fontType.color
+    }
+}
+
+public protocol JVTextFieldHolder {
+    var textField: JVTextField { get }
+}
+
+public extension Changeable where Self: JVTextFieldHolder {
+    func determineHasBeenChanged() -> Bool {
+        return textField.determineHasBeenChanged()
+    }
+    
+    func reset() {
+        textField.text = textField.oldValue!()
     }
 }

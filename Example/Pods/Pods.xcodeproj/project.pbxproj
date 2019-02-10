@@ -1086,9 +1086,9 @@
 			children = (
 				B0C00FBB9CB58918ABF7F62CBB1A5ABC /* JVTextField.swift */,
 				5C46E2786DC526CEB5A8E7E6C4BE16C7 /* TextFieldExtensions.swift */,
+				69DC94182210BD2D0081B612 /* JVTextFieldInitializer.swift */,
 				EDE7631D215609B653E55D8C86D34428 /* Pod */,
 				0CC3F5A4E2E78FE948CF2BD9E3AE55E7 /* Support Files */,
-				69DC94182210BD2D0081B612 /* JVTextFieldInitializer.swift */,
 			);
 			name = JVTextField;
 			path = ../..;
