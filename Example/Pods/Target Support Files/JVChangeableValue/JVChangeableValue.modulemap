@@ -1,0 +1,6 @@
+framework module JVChangeableValue {
+  umbrella header "JVChangeableValue-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_JVTextField_Tests {
+  umbrella header "Pods-JVTextField_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
