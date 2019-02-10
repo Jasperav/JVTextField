@@ -11,22 +11,32 @@ open class JVTextField: UITextField, UITextFieldDelegate, ChangeableValues {
     public var validate: ((String) -> (Bool))?
     public var didReturn: (() -> ())?
     
-    public init(fontType: ContentTypeTextFont, placeholderText: String, placeHolderTextFontType: ContentTypeTextFont, text: String? = nil, validate: ((String) -> (Bool))? = nil) {
+    public init(textFieldInitializer: TextFieldInitializer, text: String? = nil, validate: ((String) -> (Bool))? = nil) {
         self.validate = validate
         
         super.init(frame: .zero)
         
-        set(fontType: fontType, placeholderText: placeholderText, placeHolderTextFontType: placeHolderTextFontType)
-        
         self.text = text
+        
+        update(textFieldInitializer: textFieldInitializer)
         
         assert(validate?(text ?? "") ?? true)
         
         delegate = self
     }
     
+    public init() {
+        super.init(frame: .zero)
+    }
+    
     public required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    open func update(textFieldInitializer: TextFieldInitializer) {
+        set(fontType: textFieldInitializer.fontType, placeholderText: textFieldInitializer.placeholderText, placeHolderTextFontType: textFieldInitializer.placeholderTextFontType)
+        
+        assert(validate?(text ?? "") ?? true)
     }
     
     open func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {

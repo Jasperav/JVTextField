@@ -51,6 +51,7 @@
 		6312C75D27AF2881743211AB145D8C16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29CA2E24BD96E3D869D5B0EDD7028CF /* Foundation.framework */; };
 		64800A35B67298FC6627CC9DD3633927 /* ContentTypeTextFontEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09B96461856B8638A8617F1F3F15624 /* ContentTypeTextFontEdges.swift */; };
 		648671D01B3C3C04DCEDBF6173C8323F /* JVFontUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC97CB49AE1495028CD1B00E76FB3EE /* JVFontUtils.swift */; };
+		69DC94192210BD2D0081B612 /* JVTextFieldInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DC94182210BD2D0081B612 /* JVTextFieldInitializer.swift */; };
 		6A1D25432F6F08F9FFB5B735E959F394 /* JVContentType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39204DDC7BE6F902E1A2E3B2C09ED4CC /* JVContentType.framework */; };
 		6D2D945EE2894DFEC3E5D3F0D529506F /* JVTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6DDBB5E4C07799317B0769EEA439D6 /* JVTextField-dummy.m */; };
 		72988313D601D09999CB643BE4361BD3 /* DeviceKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42288DD0486F0BFEB06452212DAF41B7 /* DeviceKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -358,17 +359,17 @@
 		0DF8D0F1094D5B643A69ECE9D05CF101 /* Pods-JVTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JVTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		107E6011D3A6E9FF9EE08E9B4E1D56AF /* RestartableState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestartableState.swift; path = JVRestartable/Classes/RestartableState.swift; sourceTree = "<group>"; };
 		1774D26D83B1191C64C03A20E73CF6CA /* JVShapeHalfMoon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVShapeHalfMoon.modulemap; sourceTree = "<group>"; };
-		177C9243E10FCA096F2895AE2E685B04 /* JVConstraintEdges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVConstraintEdges.framework; path = JVConstraintEdges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		177C9243E10FCA096F2895AE2E685B04 /* JVConstraintEdges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVConstraintEdges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A9B468665ABEC815269392A9C2A0B2 /* JVCAShapeLayerExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVCAShapeLayerExtensions-dummy.m"; sourceTree = "<group>"; };
 		18EC34AEEE1B44C821ED426D42AF941C /* DeviceKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DeviceKit-Info.plist"; sourceTree = "<group>"; };
 		19721247ED805458662B701E0088BB92 /* JVSizeable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVSizeable.modulemap; sourceTree = "<group>"; };
 		19A6AA27459BCB3EE299A6F73832167A /* DeviceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeviceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		19FFD6BBB94237744B97897F5C244DE9 /* JVRestartable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVRestartable-Info.plist"; sourceTree = "<group>"; };
-		1A2EB3A9905BE1372C39E2143AA9DB68 /* JVContentType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVContentType.framework; path = JVContentType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B5EFECB689340F6DFE51149B6876396 /* JVCAGradientLayerExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVCAGradientLayerExtensions.framework; path = JVCAGradientLayerExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2EB3A9905BE1372C39E2143AA9DB68 /* JVContentType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVContentType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B5EFECB689340F6DFE51149B6876396 /* JVCAGradientLayerExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVCAGradientLayerExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E535B2ADA6C6189F18D6A254F6F6AC6 /* Pods-JVTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		24334D50928F07E8748BE279F4A95EE1 /* JVFontUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVFontUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		27F88B888848875DFFA1C25F68EAFB6C /* JVRestartable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVRestartable.framework; path = JVRestartable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27F88B888848875DFFA1C25F68EAFB6C /* JVRestartable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVRestartable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C472063B3B8103067A21AA465DFE41F /* JVCAGradientLayerExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVCAGradientLayerExtensions.modulemap; sourceTree = "<group>"; };
 		2C4AF5F3328EBBAEA6A3C417526A3274 /* JVView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVView-dummy.m"; sourceTree = "<group>"; };
 		2C852662CF20F4A344154126F87D92A8 /* JVLabelUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JVLabelUtils.swift; path = JVView/Classes/JVLabelUtils.swift; sourceTree = "<group>"; };
@@ -390,7 +391,7 @@
 		452B9EF45CE097F12CD2FC745FA08426 /* JVView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVView-Info.plist"; sourceTree = "<group>"; };
 		46733BBDF3B9A52BB4CFF5F10C60BE5C /* JVSizeable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVSizeable-dummy.m"; sourceTree = "<group>"; };
 		48108C4079CE2A536C5794905C543026 /* ContentTypeStarButtonGrow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeStarButtonGrow.swift; path = JVView/Classes/ContentTypeStarButtonGrow.swift; sourceTree = "<group>"; };
-		483C5C2CE57DA4A4456A3301473D4968 /* JVView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVView.framework; path = JVView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		483C5C2CE57DA4A4456A3301473D4968 /* JVView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4921CDA5612554FF9D4EAF0CAB4FBA59 /* JVFontUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVFontUtils-Info.plist"; sourceTree = "<group>"; };
 		49D1580564F7BAB758AB5CC5FA81979A /* JVView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVView.modulemap; sourceTree = "<group>"; };
 		4A737E8960F395B592125A23FD5A29C3 /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = JVView/Classes/StringExtensions.swift; sourceTree = "<group>"; };
@@ -408,12 +409,12 @@
 		5B9217603BEB0440B5E1B6B10EECCFCD /* CGFloatExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGFloatExtensions.swift; path = JVConstraintEdges/Classes/CGFloatExtensions.swift; sourceTree = "<group>"; };
 		5C2C78358DC48D8C3DCDEF9C581A6819 /* RestartableStateable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestartableStateable.swift; path = JVRestartable/Classes/RestartableStateable.swift; sourceTree = "<group>"; };
 		5C46E2786DC526CEB5A8E7E6C4BE16C7 /* TextFieldExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldExtensions.swift; path = JVTextField/Classes/TextFieldExtensions.swift; sourceTree = "<group>"; };
-		5D90B0639CCF93D624E59B5DDF9BEB01 /* JVSizeable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVSizeable.framework; path = JVSizeable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D90B0639CCF93D624E59B5DDF9BEB01 /* JVSizeable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVSizeable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E04A9EAE7C5A2BE8DF07F77BCB48987 /* JVCAShapeLayerExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVCAShapeLayerExtensions.modulemap; sourceTree = "<group>"; };
 		5F0B6E669CC59C17F96ECD9C8995C974 /* JVChangeableValue-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVChangeableValue-prefix.pch"; sourceTree = "<group>"; };
 		5F5B4B9E91E2F52593345C85C908FE64 /* Pods-JVTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JVTextField_Tests-dummy.m"; sourceTree = "<group>"; };
 		5FB3E874CFCE9F42E44781001859FF76 /* JVCurrentDevice.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVCurrentDevice.xcconfig; sourceTree = "<group>"; };
-		5FC2CCD007A65BCC5C130F4C8E0F4188 /* JVTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JVTextField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5FC2CCD007A65BCC5C130F4C8E0F4188 /* JVTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = JVTextField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		609AE80A119EA52F22E957EEC6B0F8F6 /* JVConstraintEdges.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVConstraintEdges.modulemap; sourceTree = "<group>"; };
 		63DDEFDCDC33C4089807BD93B68C60E5 /* JVCAGradientLayerExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVCAGradientLayerExtensions-prefix.pch"; sourceTree = "<group>"; };
 		6469A15CD0633B7CB9266893BE132F55 /* JVFontUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVFontUtils.xcconfig; sourceTree = "<group>"; };
@@ -422,21 +423,22 @@
 		670AF8C91AE902312CA9A10B3FF669EF /* JVTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVTextField-umbrella.h"; sourceTree = "<group>"; };
 		673EE324B99E69574740DCC8478EB0CF /* ContentTypeInitializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeInitializable.swift; path = JVContentType/Classes/ContentTypeInitializable.swift; sourceTree = "<group>"; };
 		67B8B03130E1BE1E4AAD479FA7DB93F3 /* JVShapeHalfMoon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVShapeHalfMoon-prefix.pch"; sourceTree = "<group>"; };
+		69DC94182210BD2D0081B612 /* JVTextFieldInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JVTextFieldInitializer.swift; path = JVTextField/Classes/JVTextFieldInitializer.swift; sourceTree = "<group>"; };
 		69FA4A11DC406B117C0F800ADB051598 /* JVRestartable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVRestartable-dummy.m"; sourceTree = "<group>"; };
 		700D60D942968571E3A288B2DD05FE40 /* JVSizeable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVSizeable-prefix.pch"; sourceTree = "<group>"; };
 		714DBC22B04BE38B10C73E0FC136027C /* JVCAGradientLayerExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVCAGradientLayerExtensions-dummy.m"; sourceTree = "<group>"; };
-		71C4A19F4FA0BB8A03DBB63AE98A7EF4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		71C4A19F4FA0BB8A03DBB63AE98A7EF4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		731282502A0FBF3B4C12334A43C6AD15 /* DeviceKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeviceKit.xcconfig; sourceTree = "<group>"; };
 		739DD29A3146026D80E50A4E19D0A291 /* JVFontUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVFontUtils-prefix.pch"; sourceTree = "<group>"; };
-		74E91853BB7D1B7C35D4415357504308 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		74E91853BB7D1B7C35D4415357504308 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		78D352697A152E866B7E9B361D7ACD0D /* JVChangeableValue-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVChangeableValue-Info.plist"; sourceTree = "<group>"; };
 		79FA83ED1A0D10A324796499D333F4BF /* JVConstraintEdges.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVConstraintEdges.xcconfig; sourceTree = "<group>"; };
 		7A18B6514C32429F62EC164043D31F7E /* ContentTypeConstraintEdges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeConstraintEdges.swift; path = JVConstraintEdges/Classes/ContentTypeConstraintEdges.swift; sourceTree = "<group>"; };
 		7B468DD56976877859F9EDF140BB6752 /* JVButtonText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JVButtonText.swift; path = JVView/Classes/JVButtonText.swift; sourceTree = "<group>"; };
-		7BF2418A119702866D29AFD22829F48B /* JVCurrentDevice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVCurrentDevice.framework; path = JVCurrentDevice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF2418A119702866D29AFD22829F48B /* JVCurrentDevice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVCurrentDevice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C1EED23A6964817BCE3FAF82093E729 /* JVGradientLayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVGradientLayer.xcconfig; sourceTree = "<group>"; };
 		7D2F759E3DBBD610A09CC6ECF757B991 /* JVChangeableValue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVChangeableValue.modulemap; sourceTree = "<group>"; };
-		7DFB775CFA6C70D059ADA0985D44A4E3 /* JVFontUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVFontUtils.framework; path = JVFontUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DFB775CFA6C70D059ADA0985D44A4E3 /* JVFontUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVFontUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F1093A1A6B80A1E1FAB933419DA3BF6 /* DeviceKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DeviceKit-dummy.m"; sourceTree = "<group>"; };
 		8188B2D0BF5ED9A29A85ABEC1F303158 /* JVContentType-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVContentType-dummy.m"; sourceTree = "<group>"; };
 		83CB9F50783D13E2DF25DE30CBFF0B28 /* Pods-JVTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JVTextField_Tests.modulemap"; sourceTree = "<group>"; };
@@ -456,7 +458,7 @@
 		8DB6048C28287A398C742E22FEA9C621 /* JVTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVTextField.xcconfig; sourceTree = "<group>"; };
 		8ECF2DC8B00C705F41E0BE6004F88B51 /* JVCurrentDevice-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVCurrentDevice-dummy.m"; sourceTree = "<group>"; };
 		8F33F773173D901771D38A93577066CC /* Anchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Anchor.swift; path = JVConstraintEdges/Classes/Anchor.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		940D51F038EF4E487B34685B8BD2428D /* JVCurrentDevice-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVCurrentDevice-prefix.pch"; sourceTree = "<group>"; };
 		97F9428E0CD266AE0123142DD9770DCE /* JVLabelCounterAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JVLabelCounterAnimations.swift; path = JVView/Classes/JVLabelCounterAnimations.swift; sourceTree = "<group>"; };
 		999B428DCCEBB8AFC21C90EE75F0AC48 /* DeviceKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeviceKit-prefix.pch"; sourceTree = "<group>"; };
@@ -469,14 +471,14 @@
 		A22B765F99F63A4604EAF90D2BF766AC /* ContentTypeStarLabelTextCountingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeStarLabelTextCountingLabel.swift; path = JVView/Classes/ContentTypeStarLabelTextCountingLabel.swift; sourceTree = "<group>"; };
 		A3CAEFF69FC6A8FC5AC9FD0D5FFE6B8C /* JVCAShapeLayerExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVCAShapeLayerExtensions-prefix.pch"; sourceTree = "<group>"; };
 		A3DB4E9C1175F13D189B5A6F9AB3B40E /* Copyable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Copyable.swift; path = JVContentType/Classes/Copyable.swift; sourceTree = "<group>"; };
-		A403D4B8256C8E40123BDEC90EEA07C6 /* JVChangeableValue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVChangeableValue.framework; path = JVChangeableValue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A403D4B8256C8E40123BDEC90EEA07C6 /* JVChangeableValue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVChangeableValue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4A4404A6079A273CEC845645D0F6010 /* ContentTypeStarButtonText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeStarButtonText.swift; path = JVView/Classes/ContentTypeStarButtonText.swift; sourceTree = "<group>"; };
 		A5CB3CB7CD5C64D80363F31849C1545F /* JVGradientLayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVGradientLayer-Info.plist"; sourceTree = "<group>"; };
 		A7F7B38D5EC80F8BD158D72DB4350AF9 /* Pods-JVTextField_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JVTextField_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		A965B515B12DB95E9C666B83A45187AC /* JVCAShapeLayerExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVCAShapeLayerExtensions.framework; path = JVCAShapeLayerExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A965B515B12DB95E9C666B83A45187AC /* JVCAShapeLayerExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVCAShapeLayerExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9BF0385B77B49B8665AEE82EEF79C85 /* JVShapeHalfMoon-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVShapeHalfMoon-Info.plist"; sourceTree = "<group>"; };
 		AAED2009BF29D920FE8608975EB1D661 /* JVCAShapeLayerExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVCAShapeLayerExtensions-umbrella.h"; sourceTree = "<group>"; };
-		AB5D2497E0C387003E87FA516B768103 /* JVShapeHalfMoon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVShapeHalfMoon.framework; path = JVShapeHalfMoon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5D2497E0C387003E87FA516B768103 /* JVShapeHalfMoon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVShapeHalfMoon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8648665A0C20E9439020BECC120D13 /* ContentType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentType.swift; path = JVContentType/Classes/ContentType.swift; sourceTree = "<group>"; };
 		ACEB5FE6FA6D4D756645FC5A3A6A0BF6 /* MirrorAligment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MirrorAligment.swift; path = JVView/Classes/MirrorAligment.swift; sourceTree = "<group>"; };
 		B0C00FBB9CB58918ABF7F62CBB1A5ABC /* JVTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JVTextField.swift; path = JVTextField/Classes/JVTextField.swift; sourceTree = "<group>"; };
@@ -503,8 +505,8 @@
 		D09B96461856B8638A8617F1F3F15624 /* ContentTypeTextFontEdges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeTextFontEdges.swift; path = JVView/Classes/ContentTypeTextFontEdges.swift; sourceTree = "<group>"; };
 		D1F43A16D58590DFE5B90C4A84F7F1D1 /* JVLabelCounter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JVLabelCounter.swift; path = JVView/Classes/JVLabelCounter.swift; sourceTree = "<group>"; };
 		D215B683C511A74C68BE11B9B6C13A64 /* ContentTypeStarGradientLayerPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeStarGradientLayerPoint.swift; path = JVGradientLayer/Classes/ContentTypeStarGradientLayerPoint.swift; sourceTree = "<group>"; };
-		D39E4D0F4A0C84A1C53BEE5A48FC2959 /* JVTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVTextField.framework; path = JVTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3B15602DA76DBAD41A33C6D0F48ACDB /* JVGradientLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVGradientLayer.framework; path = JVGradientLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39E4D0F4A0C84A1C53BEE5A48FC2959 /* JVTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3B15602DA76DBAD41A33C6D0F48ACDB /* JVGradientLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVGradientLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D43D8CDE3B3B32AFEA5AA2B209B07E7F /* JVConstraintEdges-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVConstraintEdges-dummy.m"; sourceTree = "<group>"; };
 		D48F66E43FB8793E9A61355B48A3FCB8 /* JVCAGradientLayerExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVCAGradientLayerExtensions-umbrella.h"; sourceTree = "<group>"; };
 		D6185B57FFF14172CD85118542A46A88 /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = JVGradientLayer/Classes/StringExtensions.swift; sourceTree = "<group>"; };
@@ -520,13 +522,13 @@
 		E5245EBE2960FEA268B302FCD63C265E /* JVContentType.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVContentType.xcconfig; sourceTree = "<group>"; };
 		E70EFF13B7DE63B660125B69DA816F6C /* JVGradientLayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVGradientLayer.modulemap; sourceTree = "<group>"; };
 		E77C15942CC3BF85BAA81D193013F3FF /* JVCurrentDevice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVCurrentDevice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7F0B13926FB641F943DA9F8149CF103 /* Pods_JVTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JVTextField_Tests.framework; path = "Pods-JVTextField_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7F0B13926FB641F943DA9F8149CF103 /* Pods_JVTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JVTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E875F31B40C5AAFBD214B22B0CB181A6 /* DeviceKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DeviceKit.modulemap; sourceTree = "<group>"; };
 		F3CFBC0673EDABB647309FA35E9CA99D /* JVCurrentDevice-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVCurrentDevice-umbrella.h"; sourceTree = "<group>"; };
 		F4C1D6D0F956BB925EBCD257A0A36487 /* ChangeableValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChangeableValue.swift; path = JVChangeableValue/Classes/ChangeableValue.swift; sourceTree = "<group>"; };
 		F5C254B2A082A4ABF1D81EF64EC599E2 /* JVCAGradientLayerExtensions-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVCAGradientLayerExtensions-Info.plist"; sourceTree = "<group>"; };
 		F6380738C41A32DD75DF2C6D948A1504 /* ContentTypeStarLabelAttributedTextCountingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeStarLabelAttributedTextCountingLabel.swift; path = JVView/Classes/ContentTypeStarLabelAttributedTextCountingLabel.swift; sourceTree = "<group>"; };
-		F79AF12097CC40BB7668D5F364E3B9C1 /* DeviceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DeviceKit.framework; path = DeviceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F79AF12097CC40BB7668D5F364E3B9C1 /* DeviceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeviceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F910F61E5213DE4950F9A64B02AB2EFF /* JVView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVView-prefix.pch"; sourceTree = "<group>"; };
 		F9A423D30C281BDC73180295CB3B7F68 /* JVFontUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVFontUtils-dummy.m"; sourceTree = "<group>"; };
 		FBE4FC09C042C5CBB4F6A0CB5AC3431F /* JVTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVTextField.modulemap; sourceTree = "<group>"; };
@@ -686,7 +688,6 @@
 				3BEF646844B019C3FD2459F438059038 /* UIViewFillExtension.swift */,
 				DA3ED23E4AD0AF405BCC68B12E8F44DF /* Support Files */,
 			);
-			name = JVConstraintEdges;
 			path = JVConstraintEdges;
 			sourceTree = "<group>";
 		};
@@ -724,7 +725,6 @@
 				F4C1D6D0F956BB925EBCD257A0A36487 /* ChangeableValue.swift */,
 				2A92DA378FDA7C359D97966B36AB31D1 /* Support Files */,
 			);
-			name = JVChangeableValue;
 			path = JVChangeableValue;
 			sourceTree = "<group>";
 		};
@@ -778,7 +778,6 @@
 				31826E5DC7B812065EE8ED7C78835FDE /* DeviceType.swift */,
 				11D0D49D5B82946D55A38FF7A85F3CC0 /* Support Files */,
 			);
-			name = JVCurrentDevice;
 			path = JVCurrentDevice;
 			sourceTree = "<group>";
 		};
@@ -793,7 +792,6 @@
 				A3DB4E9C1175F13D189B5A6F9AB3B40E /* Copyable.swift */,
 				A42FD28A7200AF6B141F84FD98B622B2 /* Support Files */,
 			);
-			name = JVContentType;
 			path = JVContentType;
 			sourceTree = "<group>";
 		};
@@ -826,7 +824,6 @@
 				4A737E8960F395B592125A23FD5A29C3 /* StringExtensions.swift */,
 				7E6002665C3A7735D194EE11FCD55E82 /* Support Files */,
 			);
-			name = JVView;
 			path = JVView;
 			sourceTree = "<group>";
 		};
@@ -836,7 +833,6 @@
 				BED550454C9FF9CFC9D5E8C55D92685F /* Device.generated.swift */,
 				CCBA2D2A809A5267680BE80A19371637 /* Support Files */,
 			);
-			name = DeviceKit;
 			path = DeviceKit;
 			sourceTree = "<group>";
 		};
@@ -849,7 +845,6 @@
 				D6185B57FFF14172CD85118542A46A88 /* StringExtensions.swift */,
 				CE43490C142503681DF1F1D8AE2009DB /* Support Files */,
 			);
-			name = JVGradientLayer;
 			path = JVGradientLayer;
 			sourceTree = "<group>";
 		};
@@ -863,7 +858,6 @@
 				5C2C78358DC48D8C3DCDEF9C581A6819 /* RestartableStateable.swift */,
 				DC8FDEAA21D451739D782877AE29367A /* Support Files */,
 			);
-			name = JVRestartable;
 			path = JVRestartable;
 			sourceTree = "<group>";
 		};
@@ -881,7 +875,6 @@
 				DBC97CB49AE1495028CD1B00E76FB3EE /* JVFontUtils.swift */,
 				DC71CBAA13F0A9CC030A6C916864043C /* Support Files */,
 			);
-			name = JVFontUtils;
 			path = JVFontUtils;
 			sourceTree = "<group>";
 		};
@@ -891,7 +884,6 @@
 				C65AC7119BBCB5CB787EBEB0A167BF0D /* CAShapeLayerExtensions.swift */,
 				F3882010F95F140156DF86ED7CE6FAFE /* Support Files */,
 			);
-			name = JVCAShapeLayerExtensions;
 			path = JVCAShapeLayerExtensions;
 			sourceTree = "<group>";
 		};
@@ -927,7 +919,6 @@
 				E4AEB066766AC788858484C268B27A60 /* JVCAGradientLayerExtensions.swift */,
 				EB6A3CB488D5743773155C49890F17E2 /* Support Files */,
 			);
-			name = JVCAGradientLayerExtensions;
 			path = JVCAGradientLayerExtensions;
 			sourceTree = "<group>";
 		};
@@ -983,7 +974,6 @@
 				342565C03F08CEBDC0B520CC19E5FFBC /* ShapeHalfMoon.swift */,
 				82790B4B766572E7CF9A362EDCB559F7 /* Support Files */,
 			);
-			name = JVShapeHalfMoon;
 			path = JVShapeHalfMoon;
 			sourceTree = "<group>";
 		};
@@ -1098,6 +1088,7 @@
 				5C46E2786DC526CEB5A8E7E6C4BE16C7 /* TextFieldExtensions.swift */,
 				EDE7631D215609B653E55D8C86D34428 /* Pod */,
 				0CC3F5A4E2E78FE948CF2BD9E3AE55E7 /* Support Files */,
+				69DC94182210BD2D0081B612 /* JVTextFieldInitializer.swift */,
 			);
 			name = JVTextField;
 			path = ../..;
@@ -1177,7 +1168,6 @@
 				89118222BAC4CFBD536A9CA6BD077F77 /* Sizeable.swift */,
 				DBA2367FFCE8149EDB0CB7D7FD143AAC /* Support Files */,
 			);
-			name = JVSizeable;
 			path = JVSizeable;
 			sourceTree = "<group>";
 		};
@@ -1911,6 +1901,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69DC94192210BD2D0081B612 /* JVTextFieldInitializer.swift in Sources */,
 				6D2D945EE2894DFEC3E5D3F0D529506F /* JVTextField-dummy.m in Sources */,
 				915D9E47544A32C837BA485313FEDA99 /* JVTextField.swift in Sources */,
 				3C5B4F4633A22B8E38274A4E9561F39C /* TextFieldExtensions.swift in Sources */,
@@ -2152,8 +2143,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -2222,8 +2212,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -2359,8 +2348,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -2395,8 +2383,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -2465,8 +2452,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -2501,8 +2487,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -2571,8 +2556,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -2606,8 +2590,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -2740,8 +2723,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -2776,8 +2758,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -3007,8 +2988,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -3043,8 +3023,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -3113,8 +3092,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -3152,8 +3130,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -3292,8 +3269,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
