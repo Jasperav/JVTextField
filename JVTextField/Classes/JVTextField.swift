@@ -13,12 +13,13 @@ open class JVTextField: UITextField, UITextFieldDelegate, ChangeableValues {
     public var validate: ((String) -> (Bool))?
     public var didReturn: (() -> ())?
     
-    public init(textFieldInitializer: TextFieldInitializer, text: String? = nil, validate: ((String) -> (Bool))? = nil) {
+    public init(textFieldInitializer: TextFieldInitializer = JVTextField.defaultTextFieldInitializer!, text: String? = nil, validate: ((String) -> (Bool))? = nil, placeholderText: String? = nil) {
         self.validate = validate
         
         super.init(frame: .zero)
         
         self.text = text
+        self.placeholder = placeholderText
         
         update(textFieldInitializer: textFieldInitializer)
         
