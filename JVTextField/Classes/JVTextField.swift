@@ -5,6 +5,8 @@ import JVChangeableValue
 
 open class JVTextField: UITextField, UITextFieldDelegate, ChangeableValues {
     
+    public static var defaultTextFieldInitializer: TextFieldInitializer?
+    
     public var currentValue = ""
     public var oldValue: (() -> (String))?
     public var hasChanged: ((Bool) -> ())?
@@ -25,8 +27,22 @@ open class JVTextField: UITextField, UITextFieldDelegate, ChangeableValues {
         delegate = self
     }
     
-    public init() {
+    public init(defaultTextFieldInitializer: TextFieldInitializer? = JVTextField.defaultTextFieldInitializer) {
         super.init(frame: .zero)
+        
+        guard let defaultTextFieldInitializer = defaultTextFieldInitializer else { return }
+        
+        update(textFieldInitializer: defaultTextFieldInitializer)
+    }
+    
+    public init(placeholderText: String) {
+        super.init(frame: .zero)
+        
+        self.placeholder = placeholder
+        
+        guard let defaultTextFieldInitializer = JVTextField.defaultTextFieldInitializer else { return }
+        
+        update(textFieldInitializer: defaultTextFieldInitializer)
     }
     
     public required init?(coder aDecoder: NSCoder) {
