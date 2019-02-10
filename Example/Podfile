@@ -1,0 +1,6 @@
+use_frameworks!
+target 'JVTextField_Tests' do
+  pod 'JVTextField', :path => '../'
+  
+  
+end
