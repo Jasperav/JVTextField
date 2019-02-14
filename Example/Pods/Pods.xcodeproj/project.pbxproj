@@ -11,119 +11,119 @@
 		08F835D041DA9DEC099D75DDB381C17B /* JVRestartable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FA4A11DC406B117C0F800ADB051598 /* JVRestartable-dummy.m */; };
 		0A38AE0C4A5995B31DA13225621E24A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29CA2E24BD96E3D869D5B0EDD7028CF /* Foundation.framework */; };
 		0F74A0B2940B86133F202CB14116E154 /* JVCurrentDevice-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECF2DC8B00C705F41E0BE6004F88B51 /* JVCurrentDevice-dummy.m */; };
-		0FC7DA499CA97A10D5ACDDE21083E0BB /* JVTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 670AF8C91AE902312CA9A10B3FF669EF /* JVTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1039DCAFC8607265ED2E0305253E1526 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29CA2E24BD96E3D869D5B0EDD7028CF /* Foundation.framework */; };
+		10336C3BC9C9E7C7B61E3F3E3E5E3623 /* ContentTypeStarLabelTextCountingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22B765F99F63A4604EAF90D2BF766AC /* ContentTypeStarLabelTextCountingLabel.swift */; };
 		10B1C2D03B97302D7D806BE2C1AA650B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29CA2E24BD96E3D869D5B0EDD7028CF /* Foundation.framework */; };
-		16312D3FAC683516B330475BE2D5CF56 /* JVFontUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24334D50928F07E8748BE279F4A95EE1 /* JVFontUtils.framework */; };
+		15558218E6D3DE2CCF2A847B05C87E7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29CA2E24BD96E3D869D5B0EDD7028CF /* Foundation.framework */; };
 		16D8A2BAA44E55041983BA12A5F4D361 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29CA2E24BD96E3D869D5B0EDD7028CF /* Foundation.framework */; };
 		1851F8F33EF5BECA3F1471E3C8F8DE27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29CA2E24BD96E3D869D5B0EDD7028CF /* Foundation.framework */; };
-		19AD95E46F00F641572654295A67F748 /* ContentTypeStarLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573551FA69967788931DB658742F9B79 /* ContentTypeStarLabel.swift */; };
 		19D7A40753331FA65076AC6E833D2151 /* CAShapeLayerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65AC7119BBCB5CB787EBEB0A167BF0D /* CAShapeLayerExtensions.swift */; };
+		1C133CF4020D74E6C22240666A2FFA8E /* JVView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 501E028EEF9F95FECC79FF1C3D8A35C7 /* JVView.framework */; };
 		1E0172DF98DE287DB02FEF05882E6AA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29CA2E24BD96E3D869D5B0EDD7028CF /* Foundation.framework */; };
-		1FF64A7833966D85A31814A84D98FF3E /* JVLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BFD847405B1D074DF075E03D3AE456 /* JVLabel.swift */; };
 		208EE70ECB0938381C8EA6827258875A /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9217603BEB0440B5E1B6B10EECCFCD /* CGFloatExtensions.swift */; };
+		22E0190EDA5B7A10FFABC0A4C544E0AD /* ContentTypeAttributedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E6586666CB4FA0E50BB67FBDACEDB5 /* ContentTypeAttributedText.swift */; };
 		231C02164D41AD1824EB22318F64DE2A /* ContentTypeGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F20245A49B9264BCAFDC5FB32EDAA6A /* ContentTypeGroup.swift */; };
 		2562B76D9FE6F0C787912656279D8A84 /* CollectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D97C691446F860B7AF14F8B48F0EA /* CollectionExtensions.swift */; };
 		26B61FC8E0D592FDD90347BA0D3FEA15 /* Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F33F773173D901771D38A93577066CC /* Anchor.swift */; };
+		2875B5C9F65FCD1AA2590B6C1393CE32 /* ContentTypeStarLabelAttributedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E25670551BC35F0CC77E88A43BC09E /* ContentTypeStarLabelAttributedText.swift */; };
+		29256110AC6B9268755B58CD139BBC72 /* ContentTypeStarButtonTextEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41364CED204CA31C45773B73F8B74556 /* ContentTypeStarButtonTextEdges.swift */; };
 		2BA1A7B8CE3E93329F9B2EBAE97FA1A3 /* ContentTypeInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673EE324B99E69574740DCC8478EB0CF /* ContentTypeInitializable.swift */; };
-		2DA8FE7B7FC84DE56A06813275FF44AF /* ContentTypeStarButtonTextEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41364CED204CA31C45773B73F8B74556 /* ContentTypeStarButtonTextEdges.swift */; };
+		322AE484107FEDDF4F5F2A32FF58F196 /* JVView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6523D6C110DB93EFE85D98B254717F47 /* JVView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32E196FD94C3DDEA4C4BAF9BEE9AFAC1 /* JVContentType-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8188B2D0BF5ED9A29A85ABEC1F303158 /* JVContentType-dummy.m */; };
 		3770A82936F3514D3FE76C364D34032F /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8648665A0C20E9439020BECC120D13 /* ContentType.swift */; };
 		3969BC14D01BF9C4391DFC0477A1AA08 /* CollectionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD644937081147713063E84197BB7C9 /* CollectionExtensions.swift */; };
 		3A83DC79F978764102643A6DFA63067E /* JVCAShapeLayerExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A9B468665ABEC815269392A9C2A0B2 /* JVCAShapeLayerExtensions-dummy.m */; };
+		3AE594D61CF7D40EA361822889E715AD /* JVRestartable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D4265804314BF95289397FE25FC2A8 /* JVRestartable.framework */; };
+		3BB44D78BA68FD15BD7A74C0DDB90C76 /* JVLabelCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F43A16D58590DFE5B90C4A84F7F1D1 /* JVLabelCounter.swift */; };
 		3BBE8CDE844D97B1FD23C59F6942D149 /* JVCAGradientLayerExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4228930269E19ED71C869F8E5307545E /* JVCAGradientLayerExtensions.framework */; };
-		3C5B4F4633A22B8E38274A4E9561F39C /* TextFieldExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C46E2786DC526CEB5A8E7E6C4BE16C7 /* TextFieldExtensions.swift */; };
+		43D87CA9AEAB74520A2D46AF826E9BC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29CA2E24BD96E3D869D5B0EDD7028CF /* Foundation.framework */; };
 		4870EF64DCD26D306CED510B515CE2D0 /* JVChangeableValue-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF56F421E2C59E7EB8EF120A24DCE7D7 /* JVChangeableValue-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A03081ED5555CBBAF741148911D41B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29CA2E24BD96E3D869D5B0EDD7028CF /* Foundation.framework */; };
 		4E8ED37F4E2B59F03BE33892F88D8491 /* JVFontUtils-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C06374FDADE4269EE5FED9D4FEEF29AE /* JVFontUtils-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		508ED68333D3E3298D68E021FE6861A4 /* JVContentType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39204DDC7BE6F902E1A2E3B2C09ED4CC /* JVContentType.framework */; };
 		51AB2819F9871E7A725C6A55282A9011 /* ContentTypeJVGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7373939E62BE3F2368D3C8DEA93760 /* ContentTypeJVGradientLayer.swift */; };
-		528E71B5E95F860409E46929CA0C628C /* ContentTypeStarButtonGrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48108C4079CE2A536C5794905C543026 /* ContentTypeStarButtonGrow.swift */; };
 		5607ADCB5F7498F7FCECC9A9778EEF9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29CA2E24BD96E3D869D5B0EDD7028CF /* Foundation.framework */; };
+		574983F2660C7D0A97C942534C78B6DF /* JVTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF9130518CC742A3DFE7B1EAC7F175E /* JVTextView.swift */; };
 		57B02576734CD33BEC7594A68E4588F7 /* JVCAShapeLayerExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAED2009BF29D920FE8608975EB1D661 /* JVCAShapeLayerExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		588EEF52357C0F2FF4B6A7D53B76CAC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29CA2E24BD96E3D869D5B0EDD7028CF /* Foundation.framework */; };
 		58F68695259CB12771631E1BE9EF0AE5 /* RestartableStateable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2C78358DC48D8C3DCDEF9C581A6819 /* RestartableStateable.swift */; };
 		59103BDF0AAE4DD2A66E37ABBF5EBFDF /* JVCAShapeLayerExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1C8E8D948B10FFE4E35FF3E0634BDA /* JVCAShapeLayerExtensions.framework */; };
 		59D94359CCCB981D816C8F2958CA7731 /* JVChangeableValue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6773BF00C86B65E600FBCFFC278FFF7 /* JVChangeableValue-dummy.m */; };
-		5A830FB56C7454C91B76CB2AAC9C89D5 /* JVLabelCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F43A16D58590DFE5B90C4A84F7F1D1 /* JVLabelCounter.swift */; };
-		5C83657098A37558202AA6D25E590C99 /* ContentTypeStarLabelText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35BFD89FD81F914ED14A9EA0CF6ED1 /* ContentTypeStarLabelText.swift */; };
+		5AC4AEC69674ECE08423C73E0009C284 /* JVConstraintEdges.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1085A8269A5702F6440725EA60E38E2 /* JVConstraintEdges.framework */; };
+		5CDCC93E55E372B6F028BA84B92B253A /* ContentTypeTextFontEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09B96461856B8638A8617F1F3F15624 /* ContentTypeTextFontEdges.swift */; };
+		5D9B84895F46DB5FF64EA6D2A20E872E /* MirrorAligment.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEB5FE6FA6D4D756645FC5A3A6A0BF6 /* MirrorAligment.swift */; };
+		60EFB2A76E3E7A34A9B46D9406FCDFFB /* JVLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BFD847405B1D074DF075E03D3AE456 /* JVLabel.swift */; };
+		6288EC399E740DA4AE10E430C5BB909C /* ContentTypeTextFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594CD4F9CD89AD9E05753C18D8550019 /* ContentTypeTextFont.swift */; };
 		62D0C39817ABE14D5946463A178D508E /* JVCAGradientLayerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AEB066766AC788858484C268B27A60 /* JVCAGradientLayerExtensions.swift */; };
-		6312C75D27AF2881743211AB145D8C16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29CA2E24BD96E3D869D5B0EDD7028CF /* Foundation.framework */; };
-		64800A35B67298FC6627CC9DD3633927 /* ContentTypeTextFontEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09B96461856B8638A8617F1F3F15624 /* ContentTypeTextFontEdges.swift */; };
 		648671D01B3C3C04DCEDBF6173C8323F /* JVFontUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC97CB49AE1495028CD1B00E76FB3EE /* JVFontUtils.swift */; };
-		69DC94192210BD2D0081B612 /* JVTextFieldInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69DC94182210BD2D0081B612 /* JVTextFieldInitializer.swift */; };
 		6A1D25432F6F08F9FFB5B735E959F394 /* JVContentType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39204DDC7BE6F902E1A2E3B2C09ED4CC /* JVContentType.framework */; };
-		6D2D945EE2894DFEC3E5D3F0D529506F /* JVTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6DDBB5E4C07799317B0769EEA439D6 /* JVTextField-dummy.m */; };
+		6CCF847EB0E01CD82049766806CEF0B5 /* JVButtonText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B468DD56976877859F9EDF140BB6752 /* JVButtonText.swift */; };
+		6EC588B26C6EE6513C9B584D0545AD23 /* JVCurrentDevice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E77C15942CC3BF85BAA81D193013F3FF /* JVCurrentDevice.framework */; };
+		6F425B79E004FAF8436FF7062DFAF40F /* TextFieldExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B7207327BE2DA803D0155DB02355C /* TextFieldExtensions.swift */; };
+		6FDB758B2D4A741879BACE5B78E28E2E /* ContentTypeStarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899054432108469FAFFB2F9C72E0F3CE /* ContentTypeStarButton.swift */; };
+		70E69E9740196441C80E07B5A760C77A /* JVView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4AF5F3328EBBAEA6A3C417526A3274 /* JVView-dummy.m */; };
 		72988313D601D09999CB643BE4361BD3 /* DeviceKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42288DD0486F0BFEB06452212DAF41B7 /* DeviceKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74622166FCB5083CE0E6A7934E02288C /* JVShapeHalfMoon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDAB8ADA47D6DDA3AD5664082291DE5 /* JVShapeHalfMoon.framework */; };
+		74DA397F400EE65654644510E6B62F4B /* JVGradientLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E7681BFF0AEFCC0FF4474B716E0F9D /* JVGradientLayer.framework */; };
+		759222649677AF79CAF65B82A38ADE74 /* JVTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D895CE506740742A6CB39CEDFAD25AEE /* JVTextField-dummy.m */; };
 		75C3D06951BFF9109208F985FB5E6C47 /* JVGradientLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E784539CC9941B1F0CCE8AA7BC651F /* JVGradientLayer.swift */; };
-		760D4ADFD19C1D6971B26677FAF3B580 /* JVButtonText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B468DD56976877859F9EDF140BB6752 /* JVButtonText.swift */; };
+		78822D75A448DDB1A37CB5CF9C8EECD0 /* ContentTypeStarLabelText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C35BFD89FD81F914ED14A9EA0CF6ED1 /* ContentTypeStarLabelText.swift */; };
 		7888775615E35030E6951A2419A0F1C0 /* JVFontUtils-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A423D30C281BDC73180295CB3B7F68 /* JVFontUtils-dummy.m */; };
-		78C992549FC69386916F9BEDACC37317 /* JVSizeable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA5B7ED522BFE7FFD71932789F5DFDD /* JVSizeable.framework */; };
 		793A0F99671F5C16E56CF3096350BC5A /* JVShapeHalfMoon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4F8DFD1D0218D4C9CF1B151ED26132 /* JVShapeHalfMoon-dummy.m */; };
 		7A1C0FB0EC3AB29D2A498068BCA76F3B /* Copyable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DB4E9C1175F13D189B5A6F9AB3B40E /* Copyable.swift */; };
 		7A9E773CACD93CF528D2B20BA9BB79B4 /* ContentTypeConstraintEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A18B6514C32429F62EC164043D31F7E /* ContentTypeConstraintEdges.swift */; };
-		7BF7D515F3661889015FDEABA4172D0D /* JVConstraintEdges.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1085A8269A5702F6440725EA60E38E2 /* JVConstraintEdges.framework */; };
+		80C36C9F36FEC8C99C628B3C74CF331C /* JVContentType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39204DDC7BE6F902E1A2E3B2C09ED4CC /* JVContentType.framework */; };
+		80DE965CFC890D91F5574CDFB4DA739A /* ContentTypeStarButtonGrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48108C4079CE2A536C5794905C543026 /* ContentTypeStarButtonGrow.swift */; };
 		839A750095626235E17E301181C31F81 /* ContentTypeStarGradientLayerPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D215B683C511A74C68BE11B9B6C13A64 /* ContentTypeStarGradientLayerPoint.swift */; };
+		8462989E60D90569FCCFC3B79B26A977 /* ContentTypeStarButtonText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A4404A6079A273CEC845645D0F6010 /* ContentTypeStarButtonText.swift */; };
+		852F5DE725CEEC95C7F0EA87152E87D9 /* JVButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04B2D1B8ACC1794F7B3D17DF311AD92 /* JVButtonDelegate.swift */; };
 		87235E0D6BB30EEC0F8A74BCC4DE8D33 /* Pods-JVTextField_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 530607C4C9CDA3308857AE66740DAFCD /* Pods-JVTextField_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8883BEB34ED7BBAB086F1BFB5EEE7B00 /* JVButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B041B7413497BE88395E3A70C772FB /* JVButton.swift */; };
+		88A72F7049E9D28ED02FA9923857BDA4 /* JVTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 002B2BAB89EF9968293B3AFE4ED3C3A4 /* JVTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C2FEF402F6EE540E92A7E0685BABA4E /* JVSizeable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA5B7ED522BFE7FFD71932789F5DFDD /* JVSizeable.framework */; };
 		8D6399F3E8D6EB9E3402141740D26380 /* JVCurrentDevice-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3CFBC0673EDABB647309FA35E9CA99D /* JVCurrentDevice-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D8AF65311DE2B7601DE2336CC979875 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29CA2E24BD96E3D869D5B0EDD7028CF /* Foundation.framework */; };
 		8E08D9199BFE14E0190B0BD016D7F9D0 /* Sizeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89118222BAC4CFBD536A9CA6BD077F77 /* Sizeable.swift */; };
 		8F76554279C201FA0B7C42AEA7920F02 /* JVCAGradientLayerExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 714DBC22B04BE38B10C73E0FC136027C /* JVCAGradientLayerExtensions-dummy.m */; };
 		8F99C36BB47CCC78172E9B1C7DA4E657 /* JVConstraintEdges-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC6F0FC7EF6D3CCC1DA15D690E6AF10 /* JVConstraintEdges-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8FD2E6B810CF599B3CD87A43FE12064E /* JVChangeableValue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D10B07F58A68B9D5CA4E97F6D438397 /* JVChangeableValue.framework */; };
+		8FA869CAE7424ACB9915AA40AFDC6B50 /* JVShapeHalfMoon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CDAB8ADA47D6DDA3AD5664082291DE5 /* JVShapeHalfMoon.framework */; };
 		908825328E2828CB9D2B788D0A287C38 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F16DC9396414F940224159B2153EA1 /* StringExtensions.swift */; };
-		915D9E47544A32C837BA485313FEDA99 /* JVTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C00FBB9CB58918ABF7F62CBB1A5ABC /* JVTextField.swift */; };
+		90A62617773F6F9225FDD058CD71B707 /* JVButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B041B7413497BE88395E3A70C772FB /* JVButton.swift */; };
 		930C2BFF40BF8CD1629CF76D798B8E7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29CA2E24BD96E3D869D5B0EDD7028CF /* Foundation.framework */; };
 		956F46ABDE556D9248A19F9507A79BD1 /* RestartableManageable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7A9C57182729D146D5815EC18BF9ED /* RestartableManageable.swift */; };
 		97C415F3FD1333344C7D8FC1ED3858EA /* JVShapeHalfMoon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6771506FEE2E9C68280355E99B0C84 /* JVShapeHalfMoon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98BB215235A14BFFCD514FD9CD0BECBC /* JVSizeable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA5B7ED522BFE7FFD71932789F5DFDD /* JVSizeable.framework */; };
 		9934FF7C166FA4BC3FD1048BEBCC47F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29CA2E24BD96E3D869D5B0EDD7028CF /* Foundation.framework */; };
 		9CDD6F177CDAC6FF8A984EC1A2EFC9FF /* ShapeHalfMoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342565C03F08CEBDC0B520CC19E5FFBC /* ShapeHalfMoon.swift */; };
-		9D833BBE6CF01467F42546E5772A9EE6 /* ContentTypeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0AB0348185DCB1D4D7F37E1E15CEAD /* ContentTypeTextView.swift */; };
-		9E1CF88BF173597316D76943D1BEFBFC /* JVContentType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39204DDC7BE6F902E1A2E3B2C09ED4CC /* JVContentType.framework */; };
-		9E81E60B510E67C37C6A4DB132C10AA6 /* JVView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 501E028EEF9F95FECC79FF1C3D8A35C7 /* JVView.framework */; };
+		9E617E5E5C19ED84E23C93021CA24A0E /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A737E8960F395B592125A23FD5A29C3 /* StringExtensions.swift */; };
 		A0730D4A3D322F7B4C9A6BEC30B8CF54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29CA2E24BD96E3D869D5B0EDD7028CF /* Foundation.framework */; };
 		A0846F3965FF4A77EC1965A82EB000DF /* DeviceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19A6AA27459BCB3EE299A6F73832167A /* DeviceKit.framework */; };
+		A1886F46DD5EE774BCB6A5501D6C9D64 /* JVTextFieldInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252B18F5627F5419932DEA4FCF81EDDC /* JVTextFieldInitializer.swift */; };
+		A3ECB98B637F9F537A699D23C193D80B /* JVChangeableValue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D10B07F58A68B9D5CA4E97F6D438397 /* JVChangeableValue.framework */; };
 		A631F5A52794D6C6221751290E80DDDB /* UIViewFillExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEF646844B019C3FD2459F438059038 /* UIViewFillExtension.swift */; };
-		AB181ED19FF6437B9D2A0F81E0BE55A6 /* ContentTypeStarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899054432108469FAFFB2F9C72E0F3CE /* ContentTypeStarButton.swift */; };
 		AB4811FBAC0A06ACDE74080B6DE3968A /* JVSizeable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D257D7CF9197EC2E8378A102BDE003 /* JVSizeable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD75CE1A194E6EB72202554F13D0D33A /* JVLabelCounterAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F9428E0CD266AE0123142DD9770DCE /* JVLabelCounterAnimations.swift */; };
-		AD812DF875B40EAE6DE74CB820D5142C /* JVRestartable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D4265804314BF95289397FE25FC2A8 /* JVRestartable.framework */; };
+		AB9EFE8993C31A984C6B299935A470F4 /* JVTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8304B6564D3D49B86A1583B2170FC9 /* JVTextField.swift */; };
 		AF1CB6976FA921E98655A0CC5F784F85 /* ContentTypeShapeHalfMoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3328011FA6F9B3120BBA41F7B1E0B /* ContentTypeShapeHalfMoon.swift */; };
 		B09C156DC77A8C50671F6E753BFACE6F /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6185B57FFF14172CD85118542A46A88 /* StringExtensions.swift */; };
-		B5677890A75EAA9ED9DA8AF52E87B521 /* JVButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04B2D1B8ACC1794F7B3D17DF311AD92 /* JVButtonDelegate.swift */; };
-		BD59C080EFD4A703ED4553282CF4E0BC /* JVView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C4AF5F3328EBBAEA6A3C417526A3274 /* JVView-dummy.m */; };
+		B7A80B9E79A9D383D5275849266BF96A /* ContentTypeStarLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573551FA69967788931DB658742F9B79 /* ContentTypeStarLabel.swift */; };
+		B7C0F22572C7069BC183D7CCB86CB632 /* ContentTypeStarLabelAttributedTextCountingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6380738C41A32DD75DF2C6D948A1504 /* ContentTypeStarLabelAttributedTextCountingLabel.swift */; };
+		B8AD6BF418CCEAE4F7A17D1D854B70EA /* JVLabelCounterAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F9428E0CD266AE0123142DD9770DCE /* JVLabelCounterAnimations.swift */; };
+		BAD689160131549DE9837693518C9AFF /* JVLabelUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C852662CF20F4A344154126F87D92A8 /* JVLabelUtils.swift */; };
 		BE98C84F181A982D5C4F1E519938162B /* RestartableState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107E6011D3A6E9FF9EE08E9B4E1D56AF /* RestartableState.swift */; };
-		C1624573BD70AD768BDD00FD5847F8F4 /* JVLabelUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C852662CF20F4A344154126F87D92A8 /* JVLabelUtils.swift */; };
 		C16A845B7ED5FF15BFAD5BABA0101EE9 /* Device.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED550454C9FF9CFC9D5E8C55D92685F /* Device.generated.swift */; };
-		C2542E059E35E1E60A7BF6BA512D1845 /* ContentTypeStarButtonText.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A4404A6079A273CEC845645D0F6010 /* ContentTypeStarButtonText.swift */; };
 		C34A731210158BD78FA41E3E34B51249 /* ContentTypeGroupInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF796CE13EC74BA9B605A0011328AEEB /* ContentTypeGroupInitializable.swift */; };
-		C547888952E27A9580E9436D8C3763AF /* ContentTypeStarLabelAttributedTextCountingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6380738C41A32DD75DF2C6D948A1504 /* ContentTypeStarLabelAttributedTextCountingLabel.swift */; };
-		C89521A818E36A03DAF102E7B88B6CF3 /* ContentTypeStarLabelAttributedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E25670551BC35F0CC77E88A43BC09E /* ContentTypeStarLabelAttributedText.swift */; };
-		C9C3010A2080DF68F09306E0D5660EB7 /* ContentTypeTextFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594CD4F9CD89AD9E05753C18D8550019 /* ContentTypeTextFont.swift */; };
-		CF8700CD22425509B6777514199A4FE3 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A737E8960F395B592125A23FD5A29C3 /* StringExtensions.swift */; };
-		D29F27FB3DBF9CBCDA5F609BC4AA2496 /* ContentTypeAttributedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E6586666CB4FA0E50BB67FBDACEDB5 /* ContentTypeAttributedText.swift */; };
-		D3FEF40DAC4FFD5160A6D0E5DDAF4F44 /* ContentTypeStarLabelTextCountingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22B765F99F63A4604EAF90D2BF766AC /* ContentTypeStarLabelTextCountingLabel.swift */; };
+		C6087EDA771D29DDE16B0262595FDD2C /* ContentTypeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0AB0348185DCB1D4D7F37E1E15CEAD /* ContentTypeTextView.swift */; };
 		D43C42581EDD87BA1BE4D11723D8F615 /* DeviceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31826E5DC7B812065EE8ED7C78835FDE /* DeviceType.swift */; };
 		D579E168DE2348722525EBC24EBFEF4B /* JVContentType.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39204DDC7BE6F902E1A2E3B2C09ED4CC /* JVContentType.framework */; };
-		D90AF30C3E866F335CBE36E068F1707C /* JVTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF9130518CC742A3DFE7B1EAC7F175E /* JVTextView.swift */; };
 		E04AD7D0C407709A3C46138D12BCEF1A /* JVCAGradientLayerExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D48F66E43FB8793E9A61355B48A3FCB8 /* JVCAGradientLayerExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E16C5572F2EA8AFEAF32DDBBD829ED89 /* JVSizeable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46733BBDF3B9A52BB4CFF5F10C60BE5C /* JVSizeable-dummy.m */; };
-		E461FF47FB5807F1DB77E7D6F789BD30 /* MirrorAligment.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEB5FE6FA6D4D756645FC5A3A6A0BF6 /* MirrorAligment.swift */; };
 		E82281FCD7363C900DA21C127B3D24AD /* ChangeableValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C1D6D0F956BB925EBCD257A0A36487 /* ChangeableValue.swift */; };
 		E83812700FB3E44DD453CFE8A8094381 /* JVRestartable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B0EE88685722A13A4DD28FFB790FD3C /* JVRestartable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8F5B04113556173521AD7A1B241602B /* Pods-JVTextField_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5B4B9E91E2F52593345C85C908FE64 /* Pods-JVTextField_Tests-dummy.m */; };
 		E91BAC4E6AE8FA5974BB24795A089AD9 /* DeviceKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1093A1A6B80A1E1FAB933419DA3BF6 /* DeviceKit-dummy.m */; };
+		E940EA7F8813AE5A38FA27B6F1BC85A1 /* JVFontUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24334D50928F07E8748BE279F4A95EE1 /* JVFontUtils.framework */; };
 		EB691E139408ACCC4D5A2BC217834F88 /* JVConstraintEdges-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D43D8CDE3B3B32AFEA5AA2B209B07E7F /* JVConstraintEdges-dummy.m */; };
 		EE03E17527F5C48009D0825CDF2FD45A /* ConstraintEdges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5AEEB1F15D368C64799FB31379E1C1 /* ConstraintEdges.swift */; };
-		F1DF000436178723DD27DC9BBE6C8A75 /* ContentTypeStarLabelCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36439E0D0C010182EDFF7A6E277993E9 /* ContentTypeStarLabelCounter.swift */; };
+		F2D8E28B433DB5CF3659BE1540A381C2 /* ContentTypeStarLabelCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36439E0D0C010182EDFF7A6E277993E9 /* ContentTypeStarLabelCounter.swift */; };
 		F2EE800562F355AF4E02A2AEB21CF46F /* CurrentDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0B75D5795CB0432EC96934C5A16387 /* CurrentDevice.swift */; };
 		F35DF82C7C9FA630190E6E2BE1632871 /* JVGradientLayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D3E8EB18D4DF39DD22632D27A854F60 /* JVGradientLayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3D4E8E133468B77645B099B709FB87A /* JVGradientLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E7681BFF0AEFCC0FF4474B716E0F9D /* JVGradientLayer.framework */; };
-		F72FAFEB9858C89A948276366BD4427F /* JVView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6523D6C110DB93EFE85D98B254717F47 /* JVView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F80C1587137430605549A8B91EEF4865 /* JVCurrentDevice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E77C15942CC3BF85BAA81D193013F3FF /* JVCurrentDevice.framework */; };
 		FD2DFCDE044041939C1079C9ABD4FC1B /* Restartable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1C2C626BD0828DD2F33086F8332B82 /* Restartable.swift */; };
 		FD5618C1A5DDDB0B8A3F15C49D3CDA85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29CA2E24BD96E3D869D5B0EDD7028CF /* Foundation.framework */; };
 		FFCB3C7AE968FF2A9E99AA0B8D7B5A2C /* JVContentType-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B621778CCB291A184D41312848328032 /* JVContentType-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -144,12 +144,12 @@
 			remoteGlobalIDString = 5BFF987C1EEB1A860312C7334458D4D0;
 			remoteInfo = JVFontUtils;
 		};
-		114CE9342AD7A75CDC97BCAE0F1CDE69 /* PBXContainerItemProxy */ = {
+		1028F4EF9454F2357D1AF557DBBB308B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7FF07CBEC9D6151CC3458510A1057419;
-			remoteInfo = JVChangeableValue;
+			remoteGlobalIDString = D3914735E0760772A2F4F1A1CE6E6CDC;
+			remoteInfo = JVCurrentDevice;
 		};
 		138C14A8CB7100A2A354AFA86224D2B9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -162,15 +162,8 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B4F63BD8417F309F5C95A9AF6CCFFE1A;
+			remoteGlobalIDString = B92D581C74C0A0D1C2DE86417B96287D;
 			remoteInfo = JVTextField;
-		};
-		1DC4BF39E4BE552BDB948B61917171BD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 218EBD2F6738DB57951178484E7B7D2E;
-			remoteInfo = JVConstraintEdges;
 		};
 		24F0F6F7E2063FC489D4B1E4C316FF03 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -207,6 +200,13 @@
 			remoteGlobalIDString = 7FF07CBEC9D6151CC3458510A1057419;
 			remoteInfo = JVChangeableValue;
 		};
+		419758C2E504A176F8219F41A050625B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA5FAC3FB3F8A77E4D6C047047457FE1;
+			remoteInfo = JVGradientLayer;
+		};
 		4C569CA89DE841BEF68BFC67479CE46A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -221,19 +221,19 @@
 			remoteGlobalIDString = D3914735E0760772A2F4F1A1CE6E6CDC;
 			remoteInfo = JVCurrentDevice;
 		};
+		67EC142F78F73EA9A75F058C809598B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 218EBD2F6738DB57951178484E7B7D2E;
+			remoteInfo = JVConstraintEdges;
+		};
 		689FF8615B1F34B2B1BB826B9E1D5975 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E3411180CB0A9279EC3D2B37E627644D;
 			remoteInfo = JVCAShapeLayerExtensions;
-		};
-		6D55B70FEA4760C935BCCD4947AC5889 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 519BDE3F69A25A27F2BF5FD66AC7560F;
-			remoteInfo = JVContentType;
 		};
 		6F105C74A409134053882C23393B4932 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -242,12 +242,26 @@
 			remoteGlobalIDString = EB32AC3E11B4E953F0A87FC01C240D47;
 			remoteInfo = JVSizeable;
 		};
+		71156D3D1B455AA5A7D82AD013361E4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19E5380E713E34F7B5D436FCF9879C53;
+			remoteInfo = JVView;
+		};
 		77142B2FA94636AAF5A7719D991B79A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 519BDE3F69A25A27F2BF5FD66AC7560F;
 			remoteInfo = JVContentType;
+		};
+		7E5DA097840BBB9A21DEAD7CD0DD3C5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FF07CBEC9D6151CC3458510A1057419;
+			remoteInfo = JVChangeableValue;
 		};
 		88A24D33228076615EAD9CEC9E45A0F7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -263,6 +277,13 @@
 			remoteGlobalIDString = 519BDE3F69A25A27F2BF5FD66AC7560F;
 			remoteInfo = JVContentType;
 		};
+		93D22FD928CC936184570A7B7CB62956 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BFF987C1EEB1A860312C7334458D4D0;
+			remoteInfo = JVFontUtils;
+		};
 		990DC85E5F49EF333E2A409E5B21046B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -270,26 +291,12 @@
 			remoteGlobalIDString = EB32AC3E11B4E953F0A87FC01C240D47;
 			remoteInfo = JVSizeable;
 		};
-		B13CEC005A0EC2579AC79EB819986C72 /* PBXContainerItemProxy */ = {
+		A6232AE5FFDF91AD6B4190DDBAC0E2AF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5BFF987C1EEB1A860312C7334458D4D0;
-			remoteInfo = JVFontUtils;
-		};
-		B76FDE23910A3DB2695D3732B8BFEA47 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D3914735E0760772A2F4F1A1CE6E6CDC;
-			remoteInfo = JVCurrentDevice;
-		};
-		B8F5E9C68711661FA2D72DB4EE30EDD2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2EDB19CDD87F3420C595CB47FC568598;
-			remoteInfo = JVRestartable;
+			remoteGlobalIDString = 020FB61A91E33C4F8CEDCAF6D321F058;
+			remoteInfo = JVShapeHalfMoon;
 		};
 		BF6359C7E089E31F21037B031FC6859A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -298,26 +305,26 @@
 			remoteGlobalIDString = 92C63928F5EB8AE76EB16AA8C41E91AB;
 			remoteInfo = JVCAGradientLayerExtensions;
 		};
-		C15957D69306270A3BF0916B2ACF513E /* PBXContainerItemProxy */ = {
+		CDFA12B56035B3994C2DDBD6D5EBE9C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 020FB61A91E33C4F8CEDCAF6D321F058;
-			remoteInfo = JVShapeHalfMoon;
+			remoteGlobalIDString = 519BDE3F69A25A27F2BF5FD66AC7560F;
+			remoteInfo = JVContentType;
 		};
-		C1BB43E60903D3074D3D52D42502A529 /* PBXContainerItemProxy */ = {
+		CFA4542613EC120C89BC3B9F31AA91D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A73EDEF786EE8EAEC3E2FABC95D96842;
-			remoteInfo = JVView;
+			remoteGlobalIDString = 2EDB19CDD87F3420C595CB47FC568598;
+			remoteInfo = JVRestartable;
 		};
-		CAD6BA9EDB311A57E3C667F0BC7B120F /* PBXContainerItemProxy */ = {
+		D84E79EC80CDB3BADE2E4716B86CC0D5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AA5FAC3FB3F8A77E4D6C047047457FE1;
-			remoteInfo = JVGradientLayer;
+			remoteGlobalIDString = EB32AC3E11B4E953F0A87FC01C240D47;
+			remoteInfo = JVSizeable;
 		};
 		D9E18A922599355FEF84293C346CE1C2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -330,15 +337,8 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A73EDEF786EE8EAEC3E2FABC95D96842;
+			remoteGlobalIDString = 19E5380E713E34F7B5D436FCF9879C53;
 			remoteInfo = JVView;
-		};
-		EF198EAC48733D462F36D268C7EDC541 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EB32AC3E11B4E953F0A87FC01C240D47;
-			remoteInfo = JVSizeable;
 		};
 		F8E8225F6110A3DD21C9C9B6845400FC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -350,6 +350,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		002B2BAB89EF9968293B3AFE4ED3C3A4 /* JVTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVTextField-umbrella.h"; sourceTree = "<group>"; };
 		00E784539CC9941B1F0CCE8AA7BC651F /* JVGradientLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JVGradientLayer.swift; path = JVGradientLayer/Classes/JVGradientLayer.swift; sourceTree = "<group>"; };
 		079D91B3797ECC2AE74331C670D14EB1 /* Pods-JVTextField_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVTextField_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		08F7E71C278973A2ACFAEE85F8E5E719 /* JVCAGradientLayerExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVCAGradientLayerExtensions.xcconfig; sourceTree = "<group>"; };
@@ -359,19 +360,22 @@
 		0DF8D0F1094D5B643A69ECE9D05CF101 /* Pods-JVTextField_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JVTextField_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		107E6011D3A6E9FF9EE08E9B4E1D56AF /* RestartableState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestartableState.swift; path = JVRestartable/Classes/RestartableState.swift; sourceTree = "<group>"; };
 		1774D26D83B1191C64C03A20E73CF6CA /* JVShapeHalfMoon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVShapeHalfMoon.modulemap; sourceTree = "<group>"; };
-		177C9243E10FCA096F2895AE2E685B04 /* JVConstraintEdges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVConstraintEdges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		177C9243E10FCA096F2895AE2E685B04 /* JVConstraintEdges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVConstraintEdges.framework; path = JVConstraintEdges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A9B468665ABEC815269392A9C2A0B2 /* JVCAShapeLayerExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVCAShapeLayerExtensions-dummy.m"; sourceTree = "<group>"; };
 		18EC34AEEE1B44C821ED426D42AF941C /* DeviceKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DeviceKit-Info.plist"; sourceTree = "<group>"; };
 		19721247ED805458662B701E0088BB92 /* JVSizeable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVSizeable.modulemap; sourceTree = "<group>"; };
 		19A6AA27459BCB3EE299A6F73832167A /* DeviceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeviceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		19FFD6BBB94237744B97897F5C244DE9 /* JVRestartable-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVRestartable-Info.plist"; sourceTree = "<group>"; };
-		1A2EB3A9905BE1372C39E2143AA9DB68 /* JVContentType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVContentType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B5EFECB689340F6DFE51149B6876396 /* JVCAGradientLayerExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVCAGradientLayerExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2EB3A9905BE1372C39E2143AA9DB68 /* JVContentType.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVContentType.framework; path = JVContentType.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B5EFECB689340F6DFE51149B6876396 /* JVCAGradientLayerExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVCAGradientLayerExtensions.framework; path = JVCAGradientLayerExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E535B2ADA6C6189F18D6A254F6F6AC6 /* Pods-JVTextField_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVTextField_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		24334D50928F07E8748BE279F4A95EE1 /* JVFontUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVFontUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		27F88B888848875DFFA1C25F68EAFB6C /* JVRestartable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVRestartable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		252B18F5627F5419932DEA4FCF81EDDC /* JVTextFieldInitializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JVTextFieldInitializer.swift; path = JVTextField/Classes/JVTextFieldInitializer.swift; sourceTree = "<group>"; };
+		27F88B888848875DFFA1C25F68EAFB6C /* JVRestartable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVRestartable.framework; path = JVRestartable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C472063B3B8103067A21AA465DFE41F /* JVCAGradientLayerExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVCAGradientLayerExtensions.modulemap; sourceTree = "<group>"; };
 		2C4AF5F3328EBBAEA6A3C417526A3274 /* JVView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVView-dummy.m"; sourceTree = "<group>"; };
+		2C675BCDF2C096F3C9776CA1082001EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2C73B2BA1C96C47B663C9BDF1C943401 /* JVTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVTextField.xcconfig; sourceTree = "<group>"; };
 		2C852662CF20F4A344154126F87D92A8 /* JVLabelUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JVLabelUtils.swift; path = JVView/Classes/JVLabelUtils.swift; sourceTree = "<group>"; };
 		2F20245A49B9264BCAFDC5FB32EDAA6A /* ContentTypeGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeGroup.swift; path = JVContentType/Classes/ContentTypeGroup.swift; sourceTree = "<group>"; };
 		31826E5DC7B812065EE8ED7C78835FDE /* DeviceType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceType.swift; path = JVCurrentDevice/Classes/DeviceType.swift; sourceTree = "<group>"; };
@@ -383,7 +387,6 @@
 		3B1C8E8D948B10FFE4E35FF3E0634BDA /* JVCAShapeLayerExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVCAShapeLayerExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B98474622F8461CFCCBEFF95826E56F /* Pods-JVTextField_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVTextField_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3BEF646844B019C3FD2459F438059038 /* UIViewFillExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewFillExtension.swift; path = JVConstraintEdges/Classes/UIViewFillExtension.swift; sourceTree = "<group>"; };
-		3C65385B6619CC8CDBF055AE93A47ABC /* JVTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVTextField-Info.plist"; sourceTree = "<group>"; };
 		3F662ACD823F3006108AE111918BD7F7 /* JVCAShapeLayerExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVCAShapeLayerExtensions.xcconfig; sourceTree = "<group>"; };
 		41364CED204CA31C45773B73F8B74556 /* ContentTypeStarButtonTextEdges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeStarButtonTextEdges.swift; path = JVView/Classes/ContentTypeStarButtonTextEdges.swift; sourceTree = "<group>"; };
 		42288DD0486F0BFEB06452212DAF41B7 /* DeviceKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeviceKit-umbrella.h"; sourceTree = "<group>"; };
@@ -391,7 +394,8 @@
 		452B9EF45CE097F12CD2FC745FA08426 /* JVView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVView-Info.plist"; sourceTree = "<group>"; };
 		46733BBDF3B9A52BB4CFF5F10C60BE5C /* JVSizeable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVSizeable-dummy.m"; sourceTree = "<group>"; };
 		48108C4079CE2A536C5794905C543026 /* ContentTypeStarButtonGrow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeStarButtonGrow.swift; path = JVView/Classes/ContentTypeStarButtonGrow.swift; sourceTree = "<group>"; };
-		483C5C2CE57DA4A4456A3301473D4968 /* JVView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		483C5C2CE57DA4A4456A3301473D4968 /* JVView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVView.framework; path = JVView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		490EB81F3E419F4E84965C7A4D035084 /* JVTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVTextField-Info.plist"; sourceTree = "<group>"; };
 		4921CDA5612554FF9D4EAF0CAB4FBA59 /* JVFontUtils-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVFontUtils-Info.plist"; sourceTree = "<group>"; };
 		49D1580564F7BAB758AB5CC5FA81979A /* JVView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVView.modulemap; sourceTree = "<group>"; };
 		4A737E8960F395B592125A23FD5A29C3 /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = JVView/Classes/StringExtensions.swift; sourceTree = "<group>"; };
@@ -404,41 +408,38 @@
 		51F16DC9396414F940224159B2153EA1 /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = JVConstraintEdges/Classes/StringExtensions.swift; sourceTree = "<group>"; };
 		52C3328011FA6F9B3120BBA41F7B1E0B /* ContentTypeShapeHalfMoon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeShapeHalfMoon.swift; path = JVShapeHalfMoon/Classes/ContentTypeShapeHalfMoon.swift; sourceTree = "<group>"; };
 		530607C4C9CDA3308857AE66740DAFCD /* Pods-JVTextField_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JVTextField_Tests-umbrella.h"; sourceTree = "<group>"; };
+		531004CB946BF32B14294F1A4DC0DAD5 /* JVTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVTextField-prefix.pch"; sourceTree = "<group>"; };
 		573551FA69967788931DB658742F9B79 /* ContentTypeStarLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeStarLabel.swift; path = JVView/Classes/ContentTypeStarLabel.swift; sourceTree = "<group>"; };
 		594CD4F9CD89AD9E05753C18D8550019 /* ContentTypeTextFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeTextFont.swift; path = JVView/Classes/ContentTypeTextFont.swift; sourceTree = "<group>"; };
+		5B8304B6564D3D49B86A1583B2170FC9 /* JVTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JVTextField.swift; path = JVTextField/Classes/JVTextField.swift; sourceTree = "<group>"; };
 		5B9217603BEB0440B5E1B6B10EECCFCD /* CGFloatExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGFloatExtensions.swift; path = JVConstraintEdges/Classes/CGFloatExtensions.swift; sourceTree = "<group>"; };
 		5C2C78358DC48D8C3DCDEF9C581A6819 /* RestartableStateable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RestartableStateable.swift; path = JVRestartable/Classes/RestartableStateable.swift; sourceTree = "<group>"; };
-		5C46E2786DC526CEB5A8E7E6C4BE16C7 /* TextFieldExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldExtensions.swift; path = JVTextField/Classes/TextFieldExtensions.swift; sourceTree = "<group>"; };
-		5D90B0639CCF93D624E59B5DDF9BEB01 /* JVSizeable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVSizeable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D2B7207327BE2DA803D0155DB02355C /* TextFieldExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFieldExtensions.swift; path = JVTextField/Classes/TextFieldExtensions.swift; sourceTree = "<group>"; };
+		5D90B0639CCF93D624E59B5DDF9BEB01 /* JVSizeable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVSizeable.framework; path = JVSizeable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E04A9EAE7C5A2BE8DF07F77BCB48987 /* JVCAShapeLayerExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVCAShapeLayerExtensions.modulemap; sourceTree = "<group>"; };
 		5F0B6E669CC59C17F96ECD9C8995C974 /* JVChangeableValue-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVChangeableValue-prefix.pch"; sourceTree = "<group>"; };
 		5F5B4B9E91E2F52593345C85C908FE64 /* Pods-JVTextField_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JVTextField_Tests-dummy.m"; sourceTree = "<group>"; };
 		5FB3E874CFCE9F42E44781001859FF76 /* JVCurrentDevice.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVCurrentDevice.xcconfig; sourceTree = "<group>"; };
-		5FC2CCD007A65BCC5C130F4C8E0F4188 /* JVTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = JVTextField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		609AE80A119EA52F22E957EEC6B0F8F6 /* JVConstraintEdges.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVConstraintEdges.modulemap; sourceTree = "<group>"; };
 		63DDEFDCDC33C4089807BD93B68C60E5 /* JVCAGradientLayerExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVCAGradientLayerExtensions-prefix.pch"; sourceTree = "<group>"; };
 		6469A15CD0633B7CB9266893BE132F55 /* JVFontUtils.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVFontUtils.xcconfig; sourceTree = "<group>"; };
 		6523D6C110DB93EFE85D98B254717F47 /* JVView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVView-umbrella.h"; sourceTree = "<group>"; };
 		652C0171CE3AB7962F4DDE8C035156D0 /* JVSizeable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVSizeable.xcconfig; sourceTree = "<group>"; };
-		670AF8C91AE902312CA9A10B3FF669EF /* JVTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVTextField-umbrella.h"; sourceTree = "<group>"; };
 		673EE324B99E69574740DCC8478EB0CF /* ContentTypeInitializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeInitializable.swift; path = JVContentType/Classes/ContentTypeInitializable.swift; sourceTree = "<group>"; };
 		67B8B03130E1BE1E4AAD479FA7DB93F3 /* JVShapeHalfMoon-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVShapeHalfMoon-prefix.pch"; sourceTree = "<group>"; };
-		69DC94182210BD2D0081B612 /* JVTextFieldInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JVTextFieldInitializer.swift; path = JVTextField/Classes/JVTextFieldInitializer.swift; sourceTree = "<group>"; };
 		69FA4A11DC406B117C0F800ADB051598 /* JVRestartable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVRestartable-dummy.m"; sourceTree = "<group>"; };
 		700D60D942968571E3A288B2DD05FE40 /* JVSizeable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVSizeable-prefix.pch"; sourceTree = "<group>"; };
 		714DBC22B04BE38B10C73E0FC136027C /* JVCAGradientLayerExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVCAGradientLayerExtensions-dummy.m"; sourceTree = "<group>"; };
-		71C4A19F4FA0BB8A03DBB63AE98A7EF4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		731282502A0FBF3B4C12334A43C6AD15 /* DeviceKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeviceKit.xcconfig; sourceTree = "<group>"; };
 		739DD29A3146026D80E50A4E19D0A291 /* JVFontUtils-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVFontUtils-prefix.pch"; sourceTree = "<group>"; };
-		74E91853BB7D1B7C35D4415357504308 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		78D352697A152E866B7E9B361D7ACD0D /* JVChangeableValue-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVChangeableValue-Info.plist"; sourceTree = "<group>"; };
 		79FA83ED1A0D10A324796499D333F4BF /* JVConstraintEdges.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVConstraintEdges.xcconfig; sourceTree = "<group>"; };
 		7A18B6514C32429F62EC164043D31F7E /* ContentTypeConstraintEdges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeConstraintEdges.swift; path = JVConstraintEdges/Classes/ContentTypeConstraintEdges.swift; sourceTree = "<group>"; };
 		7B468DD56976877859F9EDF140BB6752 /* JVButtonText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JVButtonText.swift; path = JVView/Classes/JVButtonText.swift; sourceTree = "<group>"; };
-		7BF2418A119702866D29AFD22829F48B /* JVCurrentDevice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVCurrentDevice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF2418A119702866D29AFD22829F48B /* JVCurrentDevice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVCurrentDevice.framework; path = JVCurrentDevice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C1EED23A6964817BCE3FAF82093E729 /* JVGradientLayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVGradientLayer.xcconfig; sourceTree = "<group>"; };
 		7D2F759E3DBBD610A09CC6ECF757B991 /* JVChangeableValue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVChangeableValue.modulemap; sourceTree = "<group>"; };
-		7DFB775CFA6C70D059ADA0985D44A4E3 /* JVFontUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVFontUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DFB775CFA6C70D059ADA0985D44A4E3 /* JVFontUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVFontUtils.framework; path = JVFontUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F1093A1A6B80A1E1FAB933419DA3BF6 /* DeviceKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DeviceKit-dummy.m"; sourceTree = "<group>"; };
 		8188B2D0BF5ED9A29A85ABEC1F303158 /* JVContentType-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVContentType-dummy.m"; sourceTree = "<group>"; };
 		83CB9F50783D13E2DF25DE30CBFF0B28 /* Pods-JVTextField_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JVTextField_Tests.modulemap"; sourceTree = "<group>"; };
@@ -454,11 +455,9 @@
 		8C6771506FEE2E9C68280355E99B0C84 /* JVShapeHalfMoon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVShapeHalfMoon-umbrella.h"; sourceTree = "<group>"; };
 		8C87E917D2EAC1A23E3ABC30FFDA8424 /* JVFontUtils.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVFontUtils.modulemap; sourceTree = "<group>"; };
 		8D10B07F58A68B9D5CA4E97F6D438397 /* JVChangeableValue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVChangeableValue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D6DDBB5E4C07799317B0769EEA439D6 /* JVTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVTextField-dummy.m"; sourceTree = "<group>"; };
-		8DB6048C28287A398C742E22FEA9C621 /* JVTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVTextField.xcconfig; sourceTree = "<group>"; };
 		8ECF2DC8B00C705F41E0BE6004F88B51 /* JVCurrentDevice-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVCurrentDevice-dummy.m"; sourceTree = "<group>"; };
 		8F33F773173D901771D38A93577066CC /* Anchor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Anchor.swift; path = JVConstraintEdges/Classes/Anchor.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		940D51F038EF4E487B34685B8BD2428D /* JVCurrentDevice-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVCurrentDevice-prefix.pch"; sourceTree = "<group>"; };
 		97F9428E0CD266AE0123142DD9770DCE /* JVLabelCounterAnimations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JVLabelCounterAnimations.swift; path = JVView/Classes/JVLabelCounterAnimations.swift; sourceTree = "<group>"; };
 		999B428DCCEBB8AFC21C90EE75F0AC48 /* DeviceKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeviceKit-prefix.pch"; sourceTree = "<group>"; };
@@ -471,17 +470,16 @@
 		A22B765F99F63A4604EAF90D2BF766AC /* ContentTypeStarLabelTextCountingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeStarLabelTextCountingLabel.swift; path = JVView/Classes/ContentTypeStarLabelTextCountingLabel.swift; sourceTree = "<group>"; };
 		A3CAEFF69FC6A8FC5AC9FD0D5FFE6B8C /* JVCAShapeLayerExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVCAShapeLayerExtensions-prefix.pch"; sourceTree = "<group>"; };
 		A3DB4E9C1175F13D189B5A6F9AB3B40E /* Copyable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Copyable.swift; path = JVContentType/Classes/Copyable.swift; sourceTree = "<group>"; };
-		A403D4B8256C8E40123BDEC90EEA07C6 /* JVChangeableValue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVChangeableValue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A403D4B8256C8E40123BDEC90EEA07C6 /* JVChangeableValue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVChangeableValue.framework; path = JVChangeableValue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4A4404A6079A273CEC845645D0F6010 /* ContentTypeStarButtonText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeStarButtonText.swift; path = JVView/Classes/ContentTypeStarButtonText.swift; sourceTree = "<group>"; };
 		A5CB3CB7CD5C64D80363F31849C1545F /* JVGradientLayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVGradientLayer-Info.plist"; sourceTree = "<group>"; };
 		A7F7B38D5EC80F8BD158D72DB4350AF9 /* Pods-JVTextField_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JVTextField_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		A965B515B12DB95E9C666B83A45187AC /* JVCAShapeLayerExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVCAShapeLayerExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A965B515B12DB95E9C666B83A45187AC /* JVCAShapeLayerExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVCAShapeLayerExtensions.framework; path = JVCAShapeLayerExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9BF0385B77B49B8665AEE82EEF79C85 /* JVShapeHalfMoon-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVShapeHalfMoon-Info.plist"; sourceTree = "<group>"; };
 		AAED2009BF29D920FE8608975EB1D661 /* JVCAShapeLayerExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVCAShapeLayerExtensions-umbrella.h"; sourceTree = "<group>"; };
-		AB5D2497E0C387003E87FA516B768103 /* JVShapeHalfMoon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVShapeHalfMoon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB5D2497E0C387003E87FA516B768103 /* JVShapeHalfMoon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVShapeHalfMoon.framework; path = JVShapeHalfMoon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8648665A0C20E9439020BECC120D13 /* ContentType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentType.swift; path = JVContentType/Classes/ContentType.swift; sourceTree = "<group>"; };
 		ACEB5FE6FA6D4D756645FC5A3A6A0BF6 /* MirrorAligment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MirrorAligment.swift; path = JVView/Classes/MirrorAligment.swift; sourceTree = "<group>"; };
-		B0C00FBB9CB58918ABF7F62CBB1A5ABC /* JVTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JVTextField.swift; path = JVTextField/Classes/JVTextField.swift; sourceTree = "<group>"; };
 		B0CFC8A16860F8A05D482E5916081541 /* JVConstraintEdges-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVConstraintEdges-prefix.pch"; sourceTree = "<group>"; };
 		B1085A8269A5702F6440725EA60E38E2 /* JVConstraintEdges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVConstraintEdges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E7681BFF0AEFCC0FF4474B716E0F9D /* JVGradientLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVGradientLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -500,19 +498,21 @@
 		C9ACADF27480D61C08DFAC87649E42B6 /* JVRestartable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVRestartable.modulemap; sourceTree = "<group>"; };
 		CA0AB0348185DCB1D4D7F37E1E15CEAD /* ContentTypeTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeTextView.swift; path = JVView/Classes/ContentTypeTextView.swift; sourceTree = "<group>"; };
 		CAC6F0FC7EF6D3CCC1DA15D690E6AF10 /* JVConstraintEdges-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVConstraintEdges-umbrella.h"; sourceTree = "<group>"; };
-		CC30008D3FDF0677E061C1C864E5E8AA /* JVTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVTextField-prefix.pch"; sourceTree = "<group>"; };
 		CDF9130518CC742A3DFE7B1EAC7F175E /* JVTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JVTextView.swift; path = JVView/Classes/JVTextView.swift; sourceTree = "<group>"; };
+		CFB244F3EF2EE1B54742910AA812E560 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D09B96461856B8638A8617F1F3F15624 /* ContentTypeTextFontEdges.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeTextFontEdges.swift; path = JVView/Classes/ContentTypeTextFontEdges.swift; sourceTree = "<group>"; };
 		D1F43A16D58590DFE5B90C4A84F7F1D1 /* JVLabelCounter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JVLabelCounter.swift; path = JVView/Classes/JVLabelCounter.swift; sourceTree = "<group>"; };
 		D215B683C511A74C68BE11B9B6C13A64 /* ContentTypeStarGradientLayerPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeStarGradientLayerPoint.swift; path = JVGradientLayer/Classes/ContentTypeStarGradientLayerPoint.swift; sourceTree = "<group>"; };
-		D39E4D0F4A0C84A1C53BEE5A48FC2959 /* JVTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3B15602DA76DBAD41A33C6D0F48ACDB /* JVGradientLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVGradientLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39E4D0F4A0C84A1C53BEE5A48FC2959 /* JVTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVTextField.framework; path = JVTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3B15602DA76DBAD41A33C6D0F48ACDB /* JVGradientLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JVGradientLayer.framework; path = JVGradientLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3EB51803C98F8877FCCC4B863AC8F95 /* JVTextField.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JVTextField.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D43D8CDE3B3B32AFEA5AA2B209B07E7F /* JVConstraintEdges-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVConstraintEdges-dummy.m"; sourceTree = "<group>"; };
 		D48F66E43FB8793E9A61355B48A3FCB8 /* JVCAGradientLayerExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVCAGradientLayerExtensions-umbrella.h"; sourceTree = "<group>"; };
 		D6185B57FFF14172CD85118542A46A88 /* StringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtensions.swift; path = JVGradientLayer/Classes/StringExtensions.swift; sourceTree = "<group>"; };
 		D6E25670551BC35F0CC77E88A43BC09E /* ContentTypeStarLabelAttributedText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeStarLabelAttributedText.swift; path = JVView/Classes/ContentTypeStarLabelAttributedText.swift; sourceTree = "<group>"; };
 		D83793ACD620859C927F9484162531E9 /* JVGradientLayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVGradientLayer-prefix.pch"; sourceTree = "<group>"; };
 		D864FAE6132C5A4C324494436123CFEE /* JVCAShapeLayerExtensions-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVCAShapeLayerExtensions-Info.plist"; sourceTree = "<group>"; };
+		D895CE506740742A6CB39CEDFAD25AEE /* JVTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVTextField-dummy.m"; sourceTree = "<group>"; };
 		DBC97CB49AE1495028CD1B00E76FB3EE /* JVFontUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JVFontUtils.swift; path = JVFontUtils/Classes/JVFontUtils.swift; sourceTree = "<group>"; };
 		DF56F421E2C59E7EB8EF120A24DCE7D7 /* JVChangeableValue-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVChangeableValue-umbrella.h"; sourceTree = "<group>"; };
 		DF796CE13EC74BA9B605A0011328AEEB /* ContentTypeGroupInitializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeGroupInitializable.swift; path = JVContentType/Classes/ContentTypeGroupInitializable.swift; sourceTree = "<group>"; };
@@ -522,21 +522,37 @@
 		E5245EBE2960FEA268B302FCD63C265E /* JVContentType.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVContentType.xcconfig; sourceTree = "<group>"; };
 		E70EFF13B7DE63B660125B69DA816F6C /* JVGradientLayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVGradientLayer.modulemap; sourceTree = "<group>"; };
 		E77C15942CC3BF85BAA81D193013F3FF /* JVCurrentDevice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVCurrentDevice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7F0B13926FB641F943DA9F8149CF103 /* Pods_JVTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JVTextField_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7F0B13926FB641F943DA9F8149CF103 /* Pods_JVTextField_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JVTextField_Tests.framework; path = "Pods-JVTextField_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E875F31B40C5AAFBD214B22B0CB181A6 /* DeviceKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DeviceKit.modulemap; sourceTree = "<group>"; };
+		EE125E74882E308CB1CF3882B48D663B /* JVTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVTextField.modulemap; sourceTree = "<group>"; };
 		F3CFBC0673EDABB647309FA35E9CA99D /* JVCurrentDevice-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVCurrentDevice-umbrella.h"; sourceTree = "<group>"; };
 		F4C1D6D0F956BB925EBCD257A0A36487 /* ChangeableValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChangeableValue.swift; path = JVChangeableValue/Classes/ChangeableValue.swift; sourceTree = "<group>"; };
 		F5C254B2A082A4ABF1D81EF64EC599E2 /* JVCAGradientLayerExtensions-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVCAGradientLayerExtensions-Info.plist"; sourceTree = "<group>"; };
 		F6380738C41A32DD75DF2C6D948A1504 /* ContentTypeStarLabelAttributedTextCountingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeStarLabelAttributedTextCountingLabel.swift; path = JVView/Classes/ContentTypeStarLabelAttributedTextCountingLabel.swift; sourceTree = "<group>"; };
-		F79AF12097CC40BB7668D5F364E3B9C1 /* DeviceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeviceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F79AF12097CC40BB7668D5F364E3B9C1 /* DeviceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DeviceKit.framework; path = DeviceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F910F61E5213DE4950F9A64B02AB2EFF /* JVView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVView-prefix.pch"; sourceTree = "<group>"; };
 		F9A423D30C281BDC73180295CB3B7F68 /* JVFontUtils-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVFontUtils-dummy.m"; sourceTree = "<group>"; };
-		FBE4FC09C042C5CBB4F6A0CB5AC3431F /* JVTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVTextField.modulemap; sourceTree = "<group>"; };
 		FBE8BBB51F4B64453E97965E64D3E427 /* JVConstraintEdges-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVConstraintEdges-Info.plist"; sourceTree = "<group>"; };
 		FE0B75D5795CB0432EC96934C5A16387 /* CurrentDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CurrentDevice.swift; path = JVCurrentDevice/Classes/CurrentDevice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		11DA2115535E17944FC2C7BBB76B08A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D87CA9AEAB74520A2D46AF826E9BC9 /* Foundation.framework in Frameworks */,
+				5AC4AEC69674ECE08423C73E0009C284 /* JVConstraintEdges.framework in Frameworks */,
+				80C36C9F36FEC8C99C628B3C74CF331C /* JVContentType.framework in Frameworks */,
+				6EC588B26C6EE6513C9B584D0545AD23 /* JVCurrentDevice.framework in Frameworks */,
+				E940EA7F8813AE5A38FA27B6F1BC85A1 /* JVFontUtils.framework in Frameworks */,
+				74DA397F400EE65654644510E6B62F4B /* JVGradientLayer.framework in Frameworks */,
+				3AE594D61CF7D40EA361822889E715AD /* JVRestartable.framework in Frameworks */,
+				8FA869CAE7424ACB9915AA40AFDC6B50 /* JVShapeHalfMoon.framework in Frameworks */,
+				8C2FEF402F6EE540E92A7E0685BABA4E /* JVSizeable.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1F825CBB0CF8363ECF835A1654B78D6A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -563,6 +579,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		60791A6956D000BA108316D141DFC31A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15558218E6D3DE2CCF2A847B05C87E7A /* Foundation.framework in Frameworks */,
+				A3ECB98B637F9F537A699D23C193D80B /* JVChangeableValue.framework in Frameworks */,
+				1C133CF4020D74E6C22240666A2FFA8E /* JVView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		619518929EAEFDCA4906F6294F069C67 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -578,22 +604,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				10B1C2D03B97302D7D806BE2C1AA650B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		90BF6ABEF90D82D69E557E910007E081 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6312C75D27AF2881743211AB145D8C16 /* Foundation.framework in Frameworks */,
-				7BF7D515F3661889015FDEABA4172D0D /* JVConstraintEdges.framework in Frameworks */,
-				9E1CF88BF173597316D76943D1BEFBFC /* JVContentType.framework in Frameworks */,
-				F80C1587137430605549A8B91EEF4865 /* JVCurrentDevice.framework in Frameworks */,
-				16312D3FAC683516B330475BE2D5CF56 /* JVFontUtils.framework in Frameworks */,
-				F3D4E8E133468B77645B099B709FB87A /* JVGradientLayer.framework in Frameworks */,
-				AD812DF875B40EAE6DE74CB820D5142C /* JVRestartable.framework in Frameworks */,
-				74622166FCB5083CE0E6A7934E02288C /* JVShapeHalfMoon.framework in Frameworks */,
-				78C992549FC69386916F9BEDACC37317 /* JVSizeable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -656,16 +666,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E266C0A34B68F7783960634C6D9A0675 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1039DCAFC8607265ED2E0305253E1526 /* Foundation.framework in Frameworks */,
-				8FD2E6B810CF599B3CD87A43FE12064E /* JVChangeableValue.framework in Frameworks */,
-				9E81E60B510E67C37C6A4DB132C10AA6 /* JVView.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FA68430FAF7B75C38CE439C518C02AAB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -688,21 +688,8 @@
 				3BEF646844B019C3FD2459F438059038 /* UIViewFillExtension.swift */,
 				DA3ED23E4AD0AF405BCC68B12E8F44DF /* Support Files */,
 			);
+			name = JVConstraintEdges;
 			path = JVConstraintEdges;
-			sourceTree = "<group>";
-		};
-		0CC3F5A4E2E78FE948CF2BD9E3AE55E7 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FBE4FC09C042C5CBB4F6A0CB5AC3431F /* JVTextField.modulemap */,
-				8DB6048C28287A398C742E22FEA9C621 /* JVTextField.xcconfig */,
-				8D6DDBB5E4C07799317B0769EEA439D6 /* JVTextField-dummy.m */,
-				3C65385B6619CC8CDBF055AE93A47ABC /* JVTextField-Info.plist */,
-				CC30008D3FDF0677E061C1C864E5E8AA /* JVTextField-prefix.pch */,
-				670AF8C91AE902312CA9A10B3FF669EF /* JVTextField-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JVTextField";
 			sourceTree = "<group>";
 		};
 		11D0D49D5B82946D55A38FF7A85F3CC0 /* Support Files */ = {
@@ -719,12 +706,26 @@
 			path = "../Target Support Files/JVCurrentDevice";
 			sourceTree = "<group>";
 		};
+		14FCFDEA928DB3E5EF8167FB404E2FD3 /* JVTextField */ = {
+			isa = PBXGroup;
+			children = (
+				5B8304B6564D3D49B86A1583B2170FC9 /* JVTextField.swift */,
+				252B18F5627F5419932DEA4FCF81EDDC /* JVTextFieldInitializer.swift */,
+				5D2B7207327BE2DA803D0155DB02355C /* TextFieldExtensions.swift */,
+				CEA8EC98FB23D2361F9C95389E7673EE /* Pod */,
+				26A9545FD98FB2008DBB908F7018D4FE /* Support Files */,
+			);
+			name = JVTextField;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		196D9B2BCFCF17745D881B43EA9BFE88 /* JVChangeableValue */ = {
 			isa = PBXGroup;
 			children = (
 				F4C1D6D0F956BB925EBCD257A0A36487 /* ChangeableValue.swift */,
 				2A92DA378FDA7C359D97966B36AB31D1 /* Support Files */,
 			);
+			name = JVChangeableValue;
 			path = JVChangeableValue;
 			sourceTree = "<group>";
 		};
@@ -734,6 +735,20 @@
 				ADC38604C7070A884D2DD85942158E52 /* Pods-JVTextField_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		26A9545FD98FB2008DBB908F7018D4FE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE125E74882E308CB1CF3882B48D663B /* JVTextField.modulemap */,
+				2C73B2BA1C96C47B663C9BDF1C943401 /* JVTextField.xcconfig */,
+				D895CE506740742A6CB39CEDFAD25AEE /* JVTextField-dummy.m */,
+				490EB81F3E419F4E84965C7A4D035084 /* JVTextField-Info.plist */,
+				531004CB946BF32B14294F1A4DC0DAD5 /* JVTextField-prefix.pch */,
+				002B2BAB89EF9968293B3AFE4ED3C3A4 /* JVTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JVTextField";
 			sourceTree = "<group>";
 		};
 		2A92DA378FDA7C359D97966B36AB31D1 /* Support Files */ = {
@@ -778,6 +793,7 @@
 				31826E5DC7B812065EE8ED7C78835FDE /* DeviceType.swift */,
 				11D0D49D5B82946D55A38FF7A85F3CC0 /* Support Files */,
 			);
+			name = JVCurrentDevice;
 			path = JVCurrentDevice;
 			sourceTree = "<group>";
 		};
@@ -792,6 +808,7 @@
 				A3DB4E9C1175F13D189B5A6F9AB3B40E /* Copyable.swift */,
 				A42FD28A7200AF6B141F84FD98B622B2 /* Support Files */,
 			);
+			name = JVContentType;
 			path = JVContentType;
 			sourceTree = "<group>";
 		};
@@ -824,6 +841,7 @@
 				4A737E8960F395B592125A23FD5A29C3 /* StringExtensions.swift */,
 				7E6002665C3A7735D194EE11FCD55E82 /* Support Files */,
 			);
+			name = JVView;
 			path = JVView;
 			sourceTree = "<group>";
 		};
@@ -833,6 +851,7 @@
 				BED550454C9FF9CFC9D5E8C55D92685F /* Device.generated.swift */,
 				CCBA2D2A809A5267680BE80A19371637 /* Support Files */,
 			);
+			name = DeviceKit;
 			path = DeviceKit;
 			sourceTree = "<group>";
 		};
@@ -845,6 +864,7 @@
 				D6185B57FFF14172CD85118542A46A88 /* StringExtensions.swift */,
 				CE43490C142503681DF1F1D8AE2009DB /* Support Files */,
 			);
+			name = JVGradientLayer;
 			path = JVGradientLayer;
 			sourceTree = "<group>";
 		};
@@ -858,15 +878,8 @@
 				5C2C78358DC48D8C3DCDEF9C581A6819 /* RestartableStateable.swift */,
 				DC8FDEAA21D451739D782877AE29367A /* Support Files */,
 			);
+			name = JVRestartable;
 			path = JVRestartable;
-			sourceTree = "<group>";
-		};
-		7384AA94869A0E06D0E6FA88C0709D25 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E532AA32298638EF1FB474BC37962F9F /* JVTextField */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		74764FC6C0BF1E568907264EEC0F597C /* JVFontUtils */ = {
@@ -875,6 +888,7 @@
 				DBC97CB49AE1495028CD1B00E76FB3EE /* JVFontUtils.swift */,
 				DC71CBAA13F0A9CC030A6C916864043C /* Support Files */,
 			);
+			name = JVFontUtils;
 			path = JVFontUtils;
 			sourceTree = "<group>";
 		};
@@ -884,6 +898,7 @@
 				C65AC7119BBCB5CB787EBEB0A167BF0D /* CAShapeLayerExtensions.swift */,
 				F3882010F95F140156DF86ED7CE6FAFE /* Support Files */,
 			);
+			name = JVCAShapeLayerExtensions;
 			path = JVCAShapeLayerExtensions;
 			sourceTree = "<group>";
 		};
@@ -891,7 +906,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				7384AA94869A0E06D0E6FA88C0709D25 /* Development Pods */,
+				AF22C4E518A49BB99BD1A0F2AB39C50D /* Development Pods */,
 				30FCD0CBD69C071548811DBFBBCA788E /* Frameworks */,
 				C40286ED6F3731AFD5C8575F450A7E1D /* Pods */,
 				E6FFD12182007BC38E369C112CF5DF36 /* Products */,
@@ -919,6 +934,7 @@
 				E4AEB066766AC788858484C268B27A60 /* JVCAGradientLayerExtensions.swift */,
 				EB6A3CB488D5743773155C49890F17E2 /* Support Files */,
 			);
+			name = JVCAGradientLayerExtensions;
 			path = JVCAGradientLayerExtensions;
 			sourceTree = "<group>";
 		};
@@ -967,6 +983,14 @@
 			path = "Target Support Files/Pods-JVTextField_Tests";
 			sourceTree = "<group>";
 		};
+		AF22C4E518A49BB99BD1A0F2AB39C50D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14FCFDEA928DB3E5EF8167FB404E2FD3 /* JVTextField */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		C351072C558883A6F858059326E1964B /* JVShapeHalfMoon */ = {
 			isa = PBXGroup;
 			children = (
@@ -974,6 +998,7 @@
 				342565C03F08CEBDC0B520CC19E5FFBC /* ShapeHalfMoon.swift */,
 				82790B4B766572E7CF9A362EDCB559F7 /* Support Files */,
 			);
+			name = JVShapeHalfMoon;
 			path = JVShapeHalfMoon;
 			sourceTree = "<group>";
 		};
@@ -1023,6 +1048,16 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/JVGradientLayer";
+			sourceTree = "<group>";
+		};
+		CEA8EC98FB23D2361F9C95389E7673EE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D3EB51803C98F8877FCCC4B863AC8F95 /* JVTextField.podspec */,
+				CFB244F3EF2EE1B54742910AA812E560 /* LICENSE */,
+				2C675BCDF2C096F3C9776CA1082001EE /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		DA3ED23E4AD0AF405BCC68B12E8F44DF /* Support Files */ = {
@@ -1081,19 +1116,6 @@
 			path = "../Target Support Files/JVRestartable";
 			sourceTree = "<group>";
 		};
-		E532AA32298638EF1FB474BC37962F9F /* JVTextField */ = {
-			isa = PBXGroup;
-			children = (
-				B0C00FBB9CB58918ABF7F62CBB1A5ABC /* JVTextField.swift */,
-				5C46E2786DC526CEB5A8E7E6C4BE16C7 /* TextFieldExtensions.swift */,
-				69DC94182210BD2D0081B612 /* JVTextFieldInitializer.swift */,
-				EDE7631D215609B653E55D8C86D34428 /* Pod */,
-				0CC3F5A4E2E78FE948CF2BD9E3AE55E7 /* Support Files */,
-			);
-			name = JVTextField;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		E6FFD12182007BC38E369C112CF5DF36 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -1130,16 +1152,6 @@
 			path = "../Target Support Files/JVCAGradientLayerExtensions";
 			sourceTree = "<group>";
 		};
-		EDE7631D215609B653E55D8C86D34428 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				5FC2CCD007A65BCC5C130F4C8E0F4188 /* JVTextField.podspec */,
-				71C4A19F4FA0BB8A03DBB63AE98A7EF4 /* LICENSE */,
-				74E91853BB7D1B7C35D4415357504308 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		F3882010F95F140156DF86ED7CE6FAFE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1168,6 +1180,7 @@
 				89118222BAC4CFBD536A9CA6BD077F77 /* Sizeable.swift */,
 				DBA2367FFCE8149EDB0CB7D7FD143AAC /* Support Files */,
 			);
+			name = JVSizeable;
 			path = JVSizeable;
 			sourceTree = "<group>";
 		};
@@ -1203,6 +1216,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E8ED37F4E2B59F03BE33892F88D8491 /* JVFontUtils-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B948FC099B6160EBBCD9CE158CA26A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322AE484107FEDDF4F5F2A32FF58F196 /* JVView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1262,14 +1283,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD2023D0DAAA0E2D29DE00D15CA8ED86 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F72FAFEB9858C89A948276366BD4427F /* JVView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D18252719BC81681029449C02F3A82F3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1278,11 +1291,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2B5E66F48B0A9521A4201D43F8A8B3A /* Headers */ = {
+		D87B82F0FC00831D737C5617C77D0E37 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FC7DA499CA97A10D5ACDDE21083E0BB /* JVTextField-umbrella.h in Headers */,
+				88A72F7049E9D28ED02FA9923857BDA4 /* JVTextField-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1365,6 +1378,32 @@
 			name = DeviceKit;
 			productName = DeviceKit;
 			productReference = F79AF12097CC40BB7668D5F364E3B9C1 /* DeviceKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		19E5380E713E34F7B5D436FCF9879C53 /* JVView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3402818B43CFA8FBF346A05832540D8 /* Build configuration list for PBXNativeTarget "JVView" */;
+			buildPhases = (
+				5B948FC099B6160EBBCD9CE158CA26A2 /* Headers */,
+				27CE5F937C512E308C33CA4D0DC169EF /* Sources */,
+				11DA2115535E17944FC2C7BBB76B08A6 /* Frameworks */,
+				DC7F54CFD80ED5582AB7EFA914A13D93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D02D974974256931391FA35F36F08BD /* PBXTargetDependency */,
+				3760744BAA696C65A9C5BF8E0BC178C7 /* PBXTargetDependency */,
+				B8F33BAA1C8AAE0966299CC281539022 /* PBXTargetDependency */,
+				73968332DDD5E9695970CD6440DBAADF /* PBXTargetDependency */,
+				6A66F761D6A6F5801903932EBE7C2541 /* PBXTargetDependency */,
+				5561B727676950C942B70CA7072786C8 /* PBXTargetDependency */,
+				21576528959A29A864EFB5BE0B3C46B5 /* PBXTargetDependency */,
+				833B0628288F1E579916322363A4677B /* PBXTargetDependency */,
+			);
+			name = JVView;
+			productName = JVView;
+			productReference = 483C5C2CE57DA4A4456A3301473D4968 /* JVView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		218EBD2F6738DB57951178484E7B7D2E /* JVConstraintEdges */ = {
@@ -1477,32 +1516,6 @@
 			productReference = 1B5EFECB689340F6DFE51149B6876396 /* JVCAGradientLayerExtensions.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A73EDEF786EE8EAEC3E2FABC95D96842 /* JVView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 43393DE09703AEAFC012D68ED92B3809 /* Build configuration list for PBXNativeTarget "JVView" */;
-			buildPhases = (
-				CD2023D0DAAA0E2D29DE00D15CA8ED86 /* Headers */,
-				4DC04F2C753E28303F11F3E79E684CBE /* Sources */,
-				90BF6ABEF90D82D69E557E910007E081 /* Frameworks */,
-				41BFAE59CED8576ECD7011A8BA927A49 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				47180B8405042DE7699FDFE02CA093AE /* PBXTargetDependency */,
-				8BB4D9E61747A0A97F67340CA19C8918 /* PBXTargetDependency */,
-				19934D14AA1E4680CB5F76804ADCCF2B /* PBXTargetDependency */,
-				DFF9DE2057BA6BC1006D8B9F80EE4F62 /* PBXTargetDependency */,
-				30C88805A69DAC9223916FA3CBF1FFFD /* PBXTargetDependency */,
-				5E85BBA32712379934367BA8A8530DA4 /* PBXTargetDependency */,
-				AE59E89D054E1A953D109E6581908938 /* PBXTargetDependency */,
-				C4E7651E22D70373AF652499C7FAE083 /* PBXTargetDependency */,
-			);
-			name = JVView;
-			productName = JVView;
-			productReference = 483C5C2CE57DA4A4456A3301473D4968 /* JVView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		AA5FAC3FB3F8A77E4D6C047047457FE1 /* JVGradientLayer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C05AFA16378789534C7951E157A0FD0 /* Build configuration list for PBXNativeTarget "JVGradientLayer" */;
@@ -1523,20 +1536,20 @@
 			productReference = D3B15602DA76DBAD41A33C6D0F48ACDB /* JVGradientLayer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B4F63BD8417F309F5C95A9AF6CCFFE1A /* JVTextField */ = {
+		B92D581C74C0A0D1C2DE86417B96287D /* JVTextField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 735032AE0D2B4CEDBC35F9E06A8407A6 /* Build configuration list for PBXNativeTarget "JVTextField" */;
+			buildConfigurationList = 7C1D1D4015A171A58CE27B2C1BF63A73 /* Build configuration list for PBXNativeTarget "JVTextField" */;
 			buildPhases = (
-				E2B5E66F48B0A9521A4201D43F8A8B3A /* Headers */,
-				F2FD8C157CE4D18ADD29DD33094E6CD3 /* Sources */,
-				E266C0A34B68F7783960634C6D9A0675 /* Frameworks */,
-				D870EC32C8DDED868E7A6768B1673199 /* Resources */,
+				D87B82F0FC00831D737C5617C77D0E37 /* Headers */,
+				3DB920BA513CC11038E8E095A2BB77EF /* Sources */,
+				60791A6956D000BA108316D141DFC31A /* Frameworks */,
+				A86D5A02AB2FF48C1FF66FEF12E883D9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D62610746E4DAE883E1965CD4FF2B414 /* PBXTargetDependency */,
-				EBD04BD1BCF3B5036D08628F98FAE045 /* PBXTargetDependency */,
+				4F15C4ADF2CCEC81B44B7CE31EDEFC04 /* PBXTargetDependency */,
+				2243CB9BC8AED9937A363E6649D212D4 /* PBXTargetDependency */,
 			);
 			name = JVTextField;
 			productName = JVTextField;
@@ -1631,8 +1644,8 @@
 				2EDB19CDD87F3420C595CB47FC568598 /* JVRestartable */,
 				020FB61A91E33C4F8CEDCAF6D321F058 /* JVShapeHalfMoon */,
 				EB32AC3E11B4E953F0A87FC01C240D47 /* JVSizeable */,
-				B4F63BD8417F309F5C95A9AF6CCFFE1A /* JVTextField */,
-				A73EDEF786EE8EAEC3E2FABC95D96842 /* JVView */,
+				B92D581C74C0A0D1C2DE86417B96287D /* JVTextField */,
+				19E5380E713E34F7B5D436FCF9879C53 /* JVView */,
 				04269345B735B382D5B8DAA30D06AB5F /* Pods-JVTextField_Tests */,
 			);
 		};
@@ -1681,13 +1694,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		41BFAE59CED8576ECD7011A8BA927A49 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		71F41B5DF6EA1B1F0885B1DDA96D3E07 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1709,6 +1715,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A86D5A02AB2FF48C1FF66FEF12E883D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AC39600B5AE4B4192D8A6A4864D9E75B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1716,7 +1729,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D870EC32C8DDED868E7A6768B1673199 /* Resources */ = {
+		DC7F54CFD80ED5582AB7EFA914A13D93 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1756,6 +1769,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		27CE5F937C512E308C33CA4D0DC169EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E0190EDA5B7A10FFABC0A4C544E0AD /* ContentTypeAttributedText.swift in Sources */,
+				6FDB758B2D4A741879BACE5B78E28E2E /* ContentTypeStarButton.swift in Sources */,
+				80DE965CFC890D91F5574CDFB4DA739A /* ContentTypeStarButtonGrow.swift in Sources */,
+				8462989E60D90569FCCFC3B79B26A977 /* ContentTypeStarButtonText.swift in Sources */,
+				29256110AC6B9268755B58CD139BBC72 /* ContentTypeStarButtonTextEdges.swift in Sources */,
+				B7A80B9E79A9D383D5275849266BF96A /* ContentTypeStarLabel.swift in Sources */,
+				2875B5C9F65FCD1AA2590B6C1393CE32 /* ContentTypeStarLabelAttributedText.swift in Sources */,
+				B7C0F22572C7069BC183D7CCB86CB632 /* ContentTypeStarLabelAttributedTextCountingLabel.swift in Sources */,
+				F2D8E28B433DB5CF3659BE1540A381C2 /* ContentTypeStarLabelCounter.swift in Sources */,
+				78822D75A448DDB1A37CB5CF9C8EECD0 /* ContentTypeStarLabelText.swift in Sources */,
+				10336C3BC9C9E7C7B61E3F3E3E5E3623 /* ContentTypeStarLabelTextCountingLabel.swift in Sources */,
+				6288EC399E740DA4AE10E430C5BB909C /* ContentTypeTextFont.swift in Sources */,
+				5CDCC93E55E372B6F028BA84B92B253A /* ContentTypeTextFontEdges.swift in Sources */,
+				C6087EDA771D29DDE16B0262595FDD2C /* ContentTypeTextView.swift in Sources */,
+				90A62617773F6F9225FDD058CD71B707 /* JVButton.swift in Sources */,
+				852F5DE725CEEC95C7F0EA87152E87D9 /* JVButtonDelegate.swift in Sources */,
+				6CCF847EB0E01CD82049766806CEF0B5 /* JVButtonText.swift in Sources */,
+				60EFB2A76E3E7A34A9B46D9406FCDFFB /* JVLabel.swift in Sources */,
+				3BB44D78BA68FD15BD7A74C0DDB90C76 /* JVLabelCounter.swift in Sources */,
+				B8AD6BF418CCEAE4F7A17D1D854B70EA /* JVLabelCounterAnimations.swift in Sources */,
+				BAD689160131549DE9837693518C9AFF /* JVLabelUtils.swift in Sources */,
+				574983F2660C7D0A97C942534C78B6DF /* JVTextView.swift in Sources */,
+				70E69E9740196441C80E07B5A760C77A /* JVView-dummy.m in Sources */,
+				5D9B84895F46DB5FF64EA6D2A20E872E /* MirrorAligment.swift in Sources */,
+				9E617E5E5C19ED84E23C93021CA24A0E /* StringExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2E19B8A1ECFFC7E6D9502E3490044966 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1769,35 +1814,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4DC04F2C753E28303F11F3E79E684CBE /* Sources */ = {
+		3DB920BA513CC11038E8E095A2BB77EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D29F27FB3DBF9CBCDA5F609BC4AA2496 /* ContentTypeAttributedText.swift in Sources */,
-				AB181ED19FF6437B9D2A0F81E0BE55A6 /* ContentTypeStarButton.swift in Sources */,
-				528E71B5E95F860409E46929CA0C628C /* ContentTypeStarButtonGrow.swift in Sources */,
-				C2542E059E35E1E60A7BF6BA512D1845 /* ContentTypeStarButtonText.swift in Sources */,
-				2DA8FE7B7FC84DE56A06813275FF44AF /* ContentTypeStarButtonTextEdges.swift in Sources */,
-				19AD95E46F00F641572654295A67F748 /* ContentTypeStarLabel.swift in Sources */,
-				C89521A818E36A03DAF102E7B88B6CF3 /* ContentTypeStarLabelAttributedText.swift in Sources */,
-				C547888952E27A9580E9436D8C3763AF /* ContentTypeStarLabelAttributedTextCountingLabel.swift in Sources */,
-				F1DF000436178723DD27DC9BBE6C8A75 /* ContentTypeStarLabelCounter.swift in Sources */,
-				5C83657098A37558202AA6D25E590C99 /* ContentTypeStarLabelText.swift in Sources */,
-				D3FEF40DAC4FFD5160A6D0E5DDAF4F44 /* ContentTypeStarLabelTextCountingLabel.swift in Sources */,
-				C9C3010A2080DF68F09306E0D5660EB7 /* ContentTypeTextFont.swift in Sources */,
-				64800A35B67298FC6627CC9DD3633927 /* ContentTypeTextFontEdges.swift in Sources */,
-				9D833BBE6CF01467F42546E5772A9EE6 /* ContentTypeTextView.swift in Sources */,
-				8883BEB34ED7BBAB086F1BFB5EEE7B00 /* JVButton.swift in Sources */,
-				B5677890A75EAA9ED9DA8AF52E87B521 /* JVButtonDelegate.swift in Sources */,
-				760D4ADFD19C1D6971B26677FAF3B580 /* JVButtonText.swift in Sources */,
-				1FF64A7833966D85A31814A84D98FF3E /* JVLabel.swift in Sources */,
-				5A830FB56C7454C91B76CB2AAC9C89D5 /* JVLabelCounter.swift in Sources */,
-				AD75CE1A194E6EB72202554F13D0D33A /* JVLabelCounterAnimations.swift in Sources */,
-				C1624573BD70AD768BDD00FD5847F8F4 /* JVLabelUtils.swift in Sources */,
-				D90AF30C3E866F335CBE36E068F1707C /* JVTextView.swift in Sources */,
-				BD59C080EFD4A703ED4553282CF4E0BC /* JVView-dummy.m in Sources */,
-				E461FF47FB5807F1DB77E7D6F789BD30 /* MirrorAligment.swift in Sources */,
-				CF8700CD22425509B6777514199A4FE3 /* StringExtensions.swift in Sources */,
+				759222649677AF79CAF65B82A38ADE74 /* JVTextField-dummy.m in Sources */,
+				AB9EFE8993C31A984C6B299935A470F4 /* JVTextField.swift in Sources */,
+				A1886F46DD5EE774BCB6A5501D6C9D64 /* JVTextFieldInitializer.swift in Sources */,
+				6F425B79E004FAF8436FF7062DFAF40F /* TextFieldExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1897,17 +1921,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2FD8C157CE4D18ADD29DD33094E6CD3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				69DC94192210BD2D0081B612 /* JVTextFieldInitializer.swift in Sources */,
-				6D2D945EE2894DFEC3E5D3F0D529506F /* JVTextField-dummy.m in Sources */,
-				915D9E47544A32C837BA485313FEDA99 /* JVTextField.swift in Sources */,
-				3C5B4F4633A22B8E38274A4E9561F39C /* TextFieldExtensions.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F34B82CDA385899BFA91C9E0A29D04CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1940,23 +1953,29 @@
 			target = E3411180CB0A9279EC3D2B37E627644D /* JVCAShapeLayerExtensions */;
 			targetProxy = 689FF8615B1F34B2B1BB826B9E1D5975 /* PBXContainerItemProxy */;
 		};
-		19934D14AA1E4680CB5F76804ADCCF2B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JVCurrentDevice;
-			target = D3914735E0760772A2F4F1A1CE6E6CDC /* JVCurrentDevice */;
-			targetProxy = B76FDE23910A3DB2695D3732B8BFEA47 /* PBXContainerItemProxy */;
-		};
 		1F912DA03FB87863B24FC21E770C3A69 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JVContentType;
 			target = 519BDE3F69A25A27F2BF5FD66AC7560F /* JVContentType */;
 			targetProxy = D9E18A922599355FEF84293C346CE1C2 /* PBXContainerItemProxy */;
 		};
-		30C88805A69DAC9223916FA3CBF1FFFD /* PBXTargetDependency */ = {
+		21576528959A29A864EFB5BE0B3C46B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = JVGradientLayer;
-			target = AA5FAC3FB3F8A77E4D6C047047457FE1 /* JVGradientLayer */;
-			targetProxy = CAD6BA9EDB311A57E3C667F0BC7B120F /* PBXContainerItemProxy */;
+			name = JVShapeHalfMoon;
+			target = 020FB61A91E33C4F8CEDCAF6D321F058 /* JVShapeHalfMoon */;
+			targetProxy = A6232AE5FFDF91AD6B4190DDBAC0E2AF /* PBXContainerItemProxy */;
+		};
+		2243CB9BC8AED9937A363E6649D212D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVView;
+			target = 19E5380E713E34F7B5D436FCF9879C53 /* JVView */;
+			targetProxy = 71156D3D1B455AA5A7D82AD013361E4F /* PBXContainerItemProxy */;
+		};
+		3760744BAA696C65A9C5BF8E0BC178C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVContentType;
+			target = 519BDE3F69A25A27F2BF5FD66AC7560F /* JVContentType */;
+			targetProxy = CDFA12B56035B3994C2DDBD6D5EBE9C7 /* PBXContainerItemProxy */;
 		};
 		3C771539771F8DA55D514E042056A809 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1964,11 +1983,11 @@
 			target = 519BDE3F69A25A27F2BF5FD66AC7560F /* JVContentType */;
 			targetProxy = 8BC4268F43E8FD841825497AA0902722 /* PBXContainerItemProxy */;
 		};
-		47180B8405042DE7699FDFE02CA093AE /* PBXTargetDependency */ = {
+		4F15C4ADF2CCEC81B44B7CE31EDEFC04 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = JVConstraintEdges;
-			target = 218EBD2F6738DB57951178484E7B7D2E /* JVConstraintEdges */;
-			targetProxy = 1DC4BF39E4BE552BDB948B61917171BD /* PBXContainerItemProxy */;
+			name = JVChangeableValue;
+			target = 7FF07CBEC9D6151CC3458510A1057419 /* JVChangeableValue */;
+			targetProxy = 7E5DA097840BBB9A21DEAD7CD0DD3C5A /* PBXContainerItemProxy */;
 		};
 		515B68F7F374DE5BCE36B2F81A2DB344 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1982,17 +2001,35 @@
 			target = 09631466C088375F12E01002F5F56A73 /* DeviceKit */;
 			targetProxy = 3771947C57DFD38ECD7289EA24FFAEC5 /* PBXContainerItemProxy */;
 		};
+		5561B727676950C942B70CA7072786C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVRestartable;
+			target = 2EDB19CDD87F3420C595CB47FC568598 /* JVRestartable */;
+			targetProxy = CFA4542613EC120C89BC3B9F31AA91D6 /* PBXContainerItemProxy */;
+		};
 		5E1823BA1304BDF8493F1E67080F1E4E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JVShapeHalfMoon;
 			target = 020FB61A91E33C4F8CEDCAF6D321F058 /* JVShapeHalfMoon */;
 			targetProxy = 2D455F9D0D8A505CDE5B3268A4E92A23 /* PBXContainerItemProxy */;
 		};
-		5E85BBA32712379934367BA8A8530DA4 /* PBXTargetDependency */ = {
+		6A66F761D6A6F5801903932EBE7C2541 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = JVRestartable;
-			target = 2EDB19CDD87F3420C595CB47FC568598 /* JVRestartable */;
-			targetProxy = B8F5E9C68711661FA2D72DB4EE30EDD2 /* PBXContainerItemProxy */;
+			name = JVGradientLayer;
+			target = AA5FAC3FB3F8A77E4D6C047047457FE1 /* JVGradientLayer */;
+			targetProxy = 419758C2E504A176F8219F41A050625B /* PBXContainerItemProxy */;
+		};
+		6D02D974974256931391FA35F36F08BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVConstraintEdges;
+			target = 218EBD2F6738DB57951178484E7B7D2E /* JVConstraintEdges */;
+			targetProxy = 67EC142F78F73EA9A75F058C809598B1 /* PBXContainerItemProxy */;
+		};
+		73968332DDD5E9695970CD6440DBAADF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVFontUtils;
+			target = 5BFF987C1EEB1A860312C7334458D4D0 /* JVFontUtils */;
+			targetProxy = 93D22FD928CC936184570A7B7CB62956 /* PBXContainerItemProxy */;
 		};
 		74410AFE1C02CBBFA6EBFA618DC4D597 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2006,11 +2043,11 @@
 			target = AA5FAC3FB3F8A77E4D6C047047457FE1 /* JVGradientLayer */;
 			targetProxy = 39E82F8A44F810C99D38BDBF1204FDDB /* PBXContainerItemProxy */;
 		};
-		8BB4D9E61747A0A97F67340CA19C8918 /* PBXTargetDependency */ = {
+		833B0628288F1E579916322363A4677B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = JVContentType;
-			target = 519BDE3F69A25A27F2BF5FD66AC7560F /* JVContentType */;
-			targetProxy = 6D55B70FEA4760C935BCCD4947AC5889 /* PBXContainerItemProxy */;
+			name = JVSizeable;
+			target = EB32AC3E11B4E953F0A87FC01C240D47 /* JVSizeable */;
+			targetProxy = D84E79EC80CDB3BADE2E4716B86CC0D5 /* PBXContainerItemProxy */;
 		};
 		97F5605492DE147D5EC57026E8FC4BDB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2024,17 +2061,17 @@
 			target = E3411180CB0A9279EC3D2B37E627644D /* JVCAShapeLayerExtensions */;
 			targetProxy = F8E8225F6110A3DD21C9C9B6845400FC /* PBXContainerItemProxy */;
 		};
-		AE59E89D054E1A953D109E6581908938 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JVShapeHalfMoon;
-			target = 020FB61A91E33C4F8CEDCAF6D321F058 /* JVShapeHalfMoon */;
-			targetProxy = C15957D69306270A3BF0916B2ACF513E /* PBXContainerItemProxy */;
-		};
 		B4D21D0873AA5DB3168952134FBFFBA7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JVContentType;
 			target = 519BDE3F69A25A27F2BF5FD66AC7560F /* JVContentType */;
 			targetProxy = 138C14A8CB7100A2A354AFA86224D2B9 /* PBXContainerItemProxy */;
+		};
+		B8F33BAA1C8AAE0966299CC281539022 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVCurrentDevice;
+			target = D3914735E0760772A2F4F1A1CE6E6CDC /* JVCurrentDevice */;
+			targetProxy = 1028F4EF9454F2357D1AF557DBBB308B /* PBXContainerItemProxy */;
 		};
 		B9732B2B6CCCEE7665805E9A9EDA5A5A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2047,12 +2084,6 @@
 			name = JVSizeable;
 			target = EB32AC3E11B4E953F0A87FC01C240D47 /* JVSizeable */;
 			targetProxy = 990DC85E5F49EF333E2A409E5B21046B /* PBXContainerItemProxy */;
-		};
-		C4E7651E22D70373AF652499C7FAE083 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JVSizeable;
-			target = EB32AC3E11B4E953F0A87FC01C240D47 /* JVSizeable */;
-			targetProxy = EF198EAC48733D462F36D268C7EDC541 /* PBXContainerItemProxy */;
 		};
 		CA43884A4542F2E18676334E2AD8A695 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2069,14 +2100,8 @@
 		CEF1449A696EF2D1989435972BCFA637 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JVView;
-			target = A73EDEF786EE8EAEC3E2FABC95D96842 /* JVView */;
+			target = 19E5380E713E34F7B5D436FCF9879C53 /* JVView */;
 			targetProxy = DEF6325A62A782FE0F675AFCBE0BBAE1 /* PBXContainerItemProxy */;
-		};
-		D62610746E4DAE883E1965CD4FF2B414 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JVChangeableValue;
-			target = 7FF07CBEC9D6151CC3458510A1057419 /* JVChangeableValue */;
-			targetProxy = 114CE9342AD7A75CDC97BCAE0F1CDE69 /* PBXContainerItemProxy */;
 		};
 		DDABC2BEF876B19FE45263C0633924B8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2084,23 +2109,11 @@
 			target = 5BFF987C1EEB1A860312C7334458D4D0 /* JVFontUtils */;
 			targetProxy = 071F51E878B5C66CF61D43FE1C645D73 /* PBXContainerItemProxy */;
 		};
-		DFF9DE2057BA6BC1006D8B9F80EE4F62 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JVFontUtils;
-			target = 5BFF987C1EEB1A860312C7334458D4D0 /* JVFontUtils */;
-			targetProxy = B13CEC005A0EC2579AC79EB819986C72 /* PBXContainerItemProxy */;
-		};
 		EB98DB383145F4E41EF760ADE6D19987 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JVTextField;
-			target = B4F63BD8417F309F5C95A9AF6CCFFE1A /* JVTextField */;
+			target = B92D581C74C0A0D1C2DE86417B96287D /* JVTextField */;
 			targetProxy = 1AD2DC5317CD70880179D23B14FF0E8E /* PBXContainerItemProxy */;
-		};
-		EBD04BD1BCF3B5036D08628F98FAE045 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JVView;
-			target = A73EDEF786EE8EAEC3E2FABC95D96842 /* JVView */;
-			targetProxy = C1BB43E60903D3074D3D52D42502A529 /* PBXContainerItemProxy */;
 		};
 		F3C6B85864EBEF708F8A5641F37C9A6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2143,7 +2156,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -2212,7 +2226,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -2288,6 +2303,40 @@
 			};
 			name = Debug;
 		};
+		383B431B512208DC819A0283DB886F92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB53899044F659B56630290A641AC5CA /* JVView.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVView/JVView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVView/JVView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVView/JVView.modulemap";
+				PRODUCT_MODULE_NAME = JVView;
+				PRODUCT_NAME = JVView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		4279A5889C6B1D1CCFD02BA554D23D10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 08F7E71C278973A2ACFAEE85F8E5E719 /* JVCAGradientLayerExtensions.xcconfig */;
@@ -2322,42 +2371,7 @@
 			};
 			name = Debug;
 		};
-		430CD79D3813AFAE88A8B27BC9035574 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DB6048C28287A398C742E22FEA9C621 /* JVTextField.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVTextField/JVTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVTextField/JVTextField-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVTextField/JVTextField.modulemap";
-				PRODUCT_MODULE_NAME = JVTextField;
-				PRODUCT_NAME = JVTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5355178A85823F8130F39BBD6FE1BFAB /* Release */ = {
+		4F10C70534A4085FB6E410C5D3535161 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BB53899044F659B56630290A641AC5CA /* JVView.xcconfig */;
 			buildSettings = {
@@ -2383,7 +2397,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -2452,7 +2467,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -2487,7 +2503,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -2556,7 +2573,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -2590,7 +2608,44 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79D32967682FC7269D074B86B923F71C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C73B2BA1C96C47B663C9BDF1C943401 /* JVTextField.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVTextField/JVTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVTextField/JVTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVTextField/JVTextField.modulemap";
+				PRODUCT_MODULE_NAME = JVTextField;
+				PRODUCT_NAME = JVTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -2723,7 +2778,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -2758,7 +2814,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -2790,40 +2847,6 @@
 				MODULEMAP_FILE = "Target Support Files/JVShapeHalfMoon/JVShapeHalfMoon.modulemap";
 				PRODUCT_MODULE_NAME = JVShapeHalfMoon;
 				PRODUCT_NAME = JVShapeHalfMoon;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A609A0991A9138146089D84A0C83EEBC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB53899044F659B56630290A641AC5CA /* JVView.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVView/JVView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVView/JVView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVView/JVView.modulemap";
-				PRODUCT_MODULE_NAME = JVView;
-				PRODUCT_NAME = JVView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -2988,7 +3011,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -3023,7 +3047,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -3092,7 +3117,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -3130,7 +3156,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -3169,40 +3196,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DC3C5D749699C6E60F614EF8E404F701 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DB6048C28287A398C742E22FEA9C621 /* JVTextField.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JVTextField/JVTextField-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JVTextField/JVTextField-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JVTextField/JVTextField.modulemap";
-				PRODUCT_MODULE_NAME = JVTextField;
-				PRODUCT_NAME = JVTextField;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -3269,7 +3262,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -3277,6 +3271,40 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		F452315AF671BCCDC78FB857769C6976 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C73B2BA1C96C47B663C9BDF1C943401 /* JVTextField.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVTextField/JVTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVTextField/JVTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVTextField/JVTextField.modulemap";
+				PRODUCT_MODULE_NAME = JVTextField;
+				PRODUCT_NAME = JVTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -3353,15 +3381,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43393DE09703AEAFC012D68ED92B3809 /* Build configuration list for PBXNativeTarget "JVView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A609A0991A9138146089D84A0C83EEBC /* Debug */,
-				5355178A85823F8130F39BBD6FE1BFAB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		69B4DD82890C8B68955F6FE11F2A07EC /* Build configuration list for PBXNativeTarget "JVRestartable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -3371,11 +3390,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		735032AE0D2B4CEDBC35F9E06A8407A6 /* Build configuration list for PBXNativeTarget "JVTextField" */ = {
+		7C1D1D4015A171A58CE27B2C1BF63A73 /* Build configuration list for PBXNativeTarget "JVTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC3C5D749699C6E60F614EF8E404F701 /* Debug */,
-				430CD79D3813AFAE88A8B27BC9035574 /* Release */,
+				F452315AF671BCCDC78FB857769C6976 /* Debug */,
+				79D32967682FC7269D074B86B923F71C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3421,6 +3440,15 @@
 			buildConfigurations = (
 				AA43AF1A9478631EFDBC86D212D280A3 /* Debug */,
 				CEFAF51ED16D24055A2F25CB9F30FAA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3402818B43CFA8FBF346A05832540D8 /* Build configuration list for PBXNativeTarget "JVView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				383B431B512208DC819A0283DB886F92 /* Debug */,
+				4F10C70534A4085FB6E410C5D3535161 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

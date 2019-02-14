@@ -8,7 +8,7 @@ open class JVTextField: UITextField, UITextFieldDelegate, ChangeableValues {
     public static var defaultTextFieldInitializer: TextFieldInitializer?
     
     public var currentValue = ""
-    public var oldValue: (() -> (String))?
+    public var oldValue = ""
     public var hasChanged: ((Bool) -> ())?
     public var validate: ((String) -> (Bool))?
     public var didReturn: (() -> ())?

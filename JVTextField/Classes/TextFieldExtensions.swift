@@ -22,6 +22,6 @@ public extension Changeable where Self: JVTextFieldHolder {
     }
     
     func reset() {
-        textField.text = textField.oldValue!()
+        textField.text = textField.oldValue
     }
 }

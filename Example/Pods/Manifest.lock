@@ -2,7 +2,7 @@ PODS:
   - DeviceKit (1.11.0)
   - JVCAGradientLayerExtensions (0.1.0)
   - JVCAShapeLayerExtensions (0.1.0)
-  - JVChangeableValue (0.1.0)
+  - JVChangeableValue (0.1.2)
   - JVConstraintEdges (0.2.8):
     - JVContentType
     - JVSizeable
@@ -18,7 +18,7 @@ PODS:
     - JVCAShapeLayerExtensions
     - JVContentType
   - JVSizeable (0.1.0)
-  - JVTextField (0.1.0):
+  - JVTextField (0.1.4):
     - JVChangeableValue
     - JVView
   - JVView (0.2.0):
@@ -59,7 +59,7 @@ SPEC CHECKSUMS:
   DeviceKit: a3a86f8dddbe1317a9a243cdf9646858bf135dce
   JVCAGradientLayerExtensions: fb18d708faf5adef4cb26e9c50f84c536865d18c
   JVCAShapeLayerExtensions: efbb4e48e07c68d434fa3a2c5623e787326303e4
-  JVChangeableValue: 94a5f9dac2d290283b4403c4103f535d443b46f2
+  JVChangeableValue: 0433232709d2ecc9711084c2944e0b3da9c5b2ff
   JVConstraintEdges: a51d03aa08bd6ed993c0837bdb247a5bd7446204
   JVContentType: bf617302d029baefccde48eb79edc7634fd15f55
   JVCurrentDevice: 36aaad85ebb56d935de74e7b3bc47c852899dc39
@@ -68,7 +68,7 @@ SPEC CHECKSUMS:
   JVRestartable: 008c47ae1b36de3bf2cdad2299852231b5749f2a
   JVShapeHalfMoon: 31444957e7a226e800003afaee2634c8ba8129a1
   JVSizeable: 1252e6b1bed411b3fc34f6119d8eaf6803876cd3
-  JVTextField: 35cc8582cdfdc1a3f759291d015b792d8155741a
+  JVTextField: f462641831c33de9ed900d3693ec491b1767f711
   JVView: cf3480ca75335733b329dd3a34c68a743fc672dc
 
 PODFILE CHECKSUM: b85ca6ea19b50bf7036eca82851cb548b10bc78e
