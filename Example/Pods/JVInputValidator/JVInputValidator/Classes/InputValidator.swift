@@ -1,15 +1,26 @@
 public enum ValidationState {
     case valid, invalid
+}
+
+public struct InputValidator {
+    public private (set) var validationState: ValidationState
+    public var changedValidationState: ((ValidationState) -> ())!
+    
+    public init(validationState: ValidationState) {
+        self.validationState = validationState
+    }
     
     public mutating func update(isValid: Bool) {
         if isValid {
-            self = .valid
+            validationState = .valid
         } else {
-            self = .invalid
+            validationState = .invalid
         }
+        
+        changedValidationState(validationState)
     }
 }
 
-public protocol InputValidator {
-    var validationState: ValidationState { get }
+public protocol InputValidateable {
+    var inputValidator: InputValidator { get set }
 }

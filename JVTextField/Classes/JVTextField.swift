@@ -4,7 +4,7 @@ import JVView
 import JVChangeableValue
 import JVInputValidator
 
-open class JVTextField: UITextField, UITextFieldDelegate, ChangeableValues, InputValidator {
+open class JVTextField: UITextField, UITextFieldDelegate, ChangeableValues, InputValidateable {
     
     public static var defaultTextFieldInitializer: TextFieldInitializer?
     
@@ -16,10 +16,11 @@ open class JVTextField: UITextField, UITextFieldDelegate, ChangeableValues, Inpu
     public var validationBlockUserInput: ((String) -> (Bool)) = { _ in return false }
     
     /// Won't block input of the user, but changes the validation state
+    public var inputValidator = InputValidator(validationState: .valid)
+    
     public var validationToChangeValidationState: ((String) -> (Bool)) = { _ in return false }
     
     public var didReturn: (() -> ())?
-    public private (set) var validationState = ValidationState.valid
     
     public init(textFieldInitializer: TextFieldInitializer = JVTextField.defaultTextFieldInitializer!,
                 text: String? = nil,
@@ -105,6 +106,6 @@ open class JVTextField: UITextField, UITextFieldDelegate, ChangeableValues, Inpu
     }
     
     private func updateValidationState() {
-        validationState.update(isValid: validationToChangeValidationState(string))
+        inputValidator.update(isValid: validationToChangeValidationState(string))
     }
 }
