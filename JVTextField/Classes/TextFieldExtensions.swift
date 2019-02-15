@@ -10,6 +10,10 @@ public extension UITextField {
         self.font = fontType.font
         self.textColor = fontType.color
     }
+    
+    var string: String {
+        return text!
+    }
 }
 
 public protocol JVTextFieldHolder {

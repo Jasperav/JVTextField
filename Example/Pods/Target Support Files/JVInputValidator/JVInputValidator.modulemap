@@ -1,0 +1,6 @@
+framework module JVInputValidator {
+  umbrella header "JVInputValidator-umbrella.h"
+
+  export *
+  module * { export * }
+}

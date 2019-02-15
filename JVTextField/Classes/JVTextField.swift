@@ -2,19 +2,32 @@ import UIKit
 import JVConstraintEdges
 import JVView
 import JVChangeableValue
+import JVInputValidator
 
-open class JVTextField: UITextField, UITextFieldDelegate, ChangeableValues {
+open class JVTextField: UITextField, UITextFieldDelegate, ChangeableValues, InputValidator {
     
     public static var defaultTextFieldInitializer: TextFieldInitializer?
     
     public var currentValue = ""
     public var oldValue = ""
     public var hasChanged: ((Bool) -> ())?
-    public var validate: ((String) -> (Bool))?
-    public var didReturn: (() -> ())?
     
-    public init(textFieldInitializer: TextFieldInitializer = JVTextField.defaultTextFieldInitializer!, text: String? = nil, validate: ((String) -> (Bool))? = nil, placeholderText: String? = nil) {
-        self.validate = validate
+    /// Will actually block input of the user.
+    public var validationBlockUserInput: ((String) -> (Bool)) = { _ in return false }
+    
+    /// Won't block input of the user, but changes the validation state
+    public var validationToChangeValidationState: ((String) -> (Bool)) = { _ in return false }
+    
+    public var didReturn: (() -> ())?
+    public private (set) var validationState = ValidationState.valid
+    
+    public init(textFieldInitializer: TextFieldInitializer = JVTextField.defaultTextFieldInitializer!,
+                text: String? = nil,
+                validationBlockUserInput: ((String) -> (Bool))? = nil,
+                validationToChangeValidationState: ((String) -> (Bool))? = nil,
+                placeholderText: String? = nil) {
+        self.validationBlockUserInput = validationBlockUserInput ?? { _ in return false }
+        self.validationToChangeValidationState = validationToChangeValidationState ?? { _ in return false }
         
         super.init(frame: .zero)
         
@@ -23,9 +36,14 @@ open class JVTextField: UITextField, UITextFieldDelegate, ChangeableValues {
         
         update(textFieldInitializer: textFieldInitializer)
         
-        assert(validate?(text ?? "") ?? true)
+        assert(self.validationBlockUserInput(string))
         
         delegate = self
+        
+        guard let text = text else { return }
+        
+        updateValidationState()
+        assert(self.validationBlockUserInput(text))
     }
     
     public init(defaultTextFieldInitializer: TextFieldInitializer? = JVTextField.defaultTextFieldInitializer) {
@@ -52,8 +70,6 @@ open class JVTextField: UITextField, UITextFieldDelegate, ChangeableValues {
     
     open func update(textFieldInitializer: TextFieldInitializer) {
         set(fontType: textFieldInitializer.fontType, placeholderText: textFieldInitializer.placeholderText, placeHolderTextFontType: textFieldInitializer.placeholderTextFontType)
-        
-        assert(validate?(text ?? "") ?? true)
     }
     
     open func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
@@ -70,9 +86,11 @@ open class JVTextField: UITextField, UITextFieldDelegate, ChangeableValues {
         
         let pressedBackSpaceAndHasPlaceHolderText = newValue == "" && placeholder != nil
         
-        guard validate?(newValue) ?? true || pressedBackSpaceAndHasPlaceHolderText else { return false }
+        guard validationBlockUserInput(newValue) || pressedBackSpaceAndHasPlaceHolderText else { return false }
         
         currentValue = newValue
+        
+        updateValidationState()
         
         hasChanged?(determineHasBeenChanged())
         
@@ -84,5 +102,9 @@ open class JVTextField: UITextField, UITextFieldDelegate, ChangeableValues {
         didReturn?()
         
         return true
+    }
+    
+    private func updateValidationState() {
+        validationState.update(isValid: validationToChangeValidationState(string))
     }
 }

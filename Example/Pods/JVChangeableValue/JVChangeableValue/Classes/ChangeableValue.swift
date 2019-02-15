@@ -7,11 +7,14 @@ public protocol Changeable: AnyObject {
     func reset()
 }
 
-public protocol ChangeableValues: Changeable {
+public protocol OldValue {
     associatedtype T: Equatable
     
+     var oldValue: T { get }
+}
+
+public protocol ChangeableValues: Changeable, OldValue {
     var currentValue: T { get set }
-    var oldValue: T { get }
 }
 
 public extension ChangeableValues {
