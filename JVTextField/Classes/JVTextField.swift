@@ -28,9 +28,10 @@ open class JVTextField: UITextField, UITextFieldDelegate, ChangeableValues, Inpu
                 validationToChangeValidationState: ((String) -> (Bool))? = nil,
                 placeholderText: String? = nil) {
         self.validationBlockUserInput = validationBlockUserInput ?? { _ in return false }
-        self.validationToChangeValidationState = validationToChangeValidationState ?? { _ in return false }
         
         super.init(frame: .zero)
+        
+        self.validationToChangeValidationState = validationToChangeValidationState ?? self.validationBlockUserInput
         
         self.text = text
         self.placeholder = placeholderText
