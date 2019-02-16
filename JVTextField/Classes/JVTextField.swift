@@ -47,15 +47,11 @@ open class JVTextField: UITextField, UITextFieldDelegate, ChangeableValues, Inpu
         assert(self.validationBlockUserInput(text))
     }
     
-    public init(defaultTextFieldInitializer: TextFieldInitializer? = JVTextField.defaultTextFieldInitializer, validationBlockUserInput: @escaping ((String) -> (Bool)), validationToChangeValidationState: ((String) -> (Bool))? = nil) {
-        self.validationBlockUserInput = validationBlockUserInput
-        self.validationToChangeValidationState = validationToChangeValidationState ?? validationBlockUserInput
+    public init() {
+        self.validationBlockUserInput = { _ in return false }
+        self.validationToChangeValidationState = { _ in return false }
         
         super.init(frame: .zero)
-        
-        guard let defaultTextFieldInitializer = defaultTextFieldInitializer else { return }
-        
-        update(textFieldInitializer: defaultTextFieldInitializer)
     }
     
     public init(placeholderText: String, validationBlockUserInput: @escaping ((String) -> (Bool)), validationToChangeValidationState: ((String) -> (Bool))? = nil) {
