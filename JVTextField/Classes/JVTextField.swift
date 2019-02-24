@@ -32,14 +32,14 @@ open class JVTextField: UITextField, UITextFieldDelegate, ChangeableValues, Inpu
         
         super.init(frame: .zero)
         
+        setup()
+        
         self.text = text
         self.placeholder = placeholderText
         
         update(textFieldInitializer: textFieldInitializer)
         
         assert(self.validationBlockUserInput(string))
-        
-        delegate = self
         
         guard let text = text else { return }
         
@@ -52,6 +52,8 @@ open class JVTextField: UITextField, UITextFieldDelegate, ChangeableValues, Inpu
         self.validationToChangeValidationState = { _ in return false }
         
         super.init(frame: .zero)
+        
+        setup()
     }
     
     public init(placeholderText: String, validationBlockUserInput: @escaping ((String) -> (Bool)), validationToChangeValidationState: ((String) -> (Bool))? = nil) {
@@ -59,6 +61,8 @@ open class JVTextField: UITextField, UITextFieldDelegate, ChangeableValues, Inpu
         self.validationToChangeValidationState = validationToChangeValidationState ?? validationBlockUserInput
         
         super.init(frame: .zero)
+        
+        setup()
         
         self.placeholder = placeholder
         
@@ -69,6 +73,10 @@ open class JVTextField: UITextField, UITextFieldDelegate, ChangeableValues, Inpu
     
     public required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    private func setup() {
+        delegate = self
     }
     
     open func update(textFieldInitializer: TextFieldInitializer) {

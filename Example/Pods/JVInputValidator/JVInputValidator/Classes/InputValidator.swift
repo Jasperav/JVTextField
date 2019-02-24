@@ -19,6 +19,12 @@ public struct InputValidator {
         
         changedValidationState(validationState)
     }
+    
+    public mutating func update(state: ValidationState) {
+        validationState = state
+        
+        changedValidationState(validationState)
+    }
 }
 
 public protocol InputValidateable {
