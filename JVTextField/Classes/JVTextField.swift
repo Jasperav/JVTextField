@@ -35,9 +35,8 @@ open class JVTextField: UITextField, UITextFieldDelegate, ChangeableValues, Inpu
         setup()
         
         self.text = text
-        self.placeholder = placeholderText
         
-        update(textFieldInitializer: textFieldInitializer)
+        update(textFieldInitializer: textFieldInitializer, placeholderText: placeholderText)
         
         assert(self.validationBlockUserInput(string))
         
@@ -68,7 +67,7 @@ open class JVTextField: UITextField, UITextFieldDelegate, ChangeableValues, Inpu
         
         guard let defaultTextFieldInitializer = JVTextField.defaultTextFieldInitializer else { return }
         
-        update(textFieldInitializer: defaultTextFieldInitializer)
+        update(textFieldInitializer: defaultTextFieldInitializer, placeholderText: placeholderText)
     }
     
     public required init?(coder aDecoder: NSCoder) {
@@ -79,8 +78,8 @@ open class JVTextField: UITextField, UITextFieldDelegate, ChangeableValues, Inpu
         delegate = self
     }
     
-    open func update(textFieldInitializer: TextFieldInitializer) {
-        set(fontType: textFieldInitializer.fontType, placeholderText: textFieldInitializer.placeholderText, placeHolderTextFontType: textFieldInitializer.placeholderTextFontType)
+    open func update(textFieldInitializer: TextFieldInitializer, placeholderText: String?) {
+        set(fontType: textFieldInitializer.fontType, placeholderText: placeholderText ?? textFieldInitializer.placeholderText, placeHolderTextFontType: textFieldInitializer.placeholderTextFontType)
     }
     
     open func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
