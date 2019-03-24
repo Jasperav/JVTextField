@@ -4,7 +4,7 @@ public enum ValidationState {
 
 public struct InputValidator {
     public private (set) var validationState: ValidationState
-    public var changedValidationState: ((ValidationState) -> ())!
+    public var changedValidationState: ((ValidationState) -> ())?
     
     public init(validationState: ValidationState) {
         self.validationState = validationState
@@ -17,13 +17,13 @@ public struct InputValidator {
             validationState = .invalid
         }
         
-        changedValidationState(validationState)
+        changedValidationState?(validationState)
     }
     
     public mutating func update(state: ValidationState) {
         validationState = state
         
-        changedValidationState(validationState)
+        changedValidationState?(validationState)
     }
 }
 

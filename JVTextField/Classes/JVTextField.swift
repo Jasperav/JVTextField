@@ -102,13 +102,14 @@ open class JVTextField: UITextField, UITextFieldDelegate, ChangeableValues, Inpu
         
         updateValidationState()
         
-        hasChanged?(determineHasBeenChanged())
+        hasChanged?(isChanged)
         
         return true
     }
     
     open func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
+        
         didReturn?()
         
         return true

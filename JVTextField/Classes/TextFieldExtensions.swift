@@ -27,10 +27,10 @@ public protocol JVTextFieldHolder {
 }
 
 public extension Changeable where Self: JVTextFieldHolder {
-    func determineHasBeenChanged() -> Bool {
-        return textField.determineHasBeenChanged()
+    var isChanged: Bool {
+        return textField.isChanged
     }
-    
+
     func reset() {
         textField.text = textField.oldValue
     }
