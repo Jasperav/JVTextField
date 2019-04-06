@@ -2,101 +2,41 @@ import UIKit
 import JVCurrentDevice
 import JVContentType
 import JVSizeable
+import JVConstraintEdges
 
-open class JVLabel: UILabel, Sizeable {
+open class JVLabel: UILabel {
     
-    @IBInspectable public var contentTypeId: String = "" {
-        didSet{
-            contentType = contentTypeId.contentTypeJVLabel
-            setContentType()
-        }
-    }
-    
-    public var contentType: ContentTypeJVLabel!
-    public var holdsAttributedText = false
-    
-    public var width: CGFloat {
-        get {
-            return intrinsicContentSize.width
-        }
-    }
-    
-    public var height: CGFloat {
-        get {
-            return intrinsicContentSize.height
-        }
-    }
-    
+    public let contentType: ContentTypeJVLabel
+
     public init(contentType: ContentTypeJVLabel, text: String? = nil) {
+        self.contentType = contentType
+        
         super.init(frame: CGRect.zero)
         
         self.text = text
         
-        self.contentType = contentType
-        setContentType()
-    }
-    
-    public required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-    }
-    
-    open func setContentType() {
-        setText(nil, startUp: true)
-        
-        if contentType.textAligment == .right && CurrentDevice.isRightToLeftLanguage {
-            textAlignment = .left
-        }
-    }
-    
-    public func setText(_ text: String?, startUp: Bool = false) {
+        numberOfLines = contentType.numberOfLines
         minimumScaleFactor = contentType.minimumScaleFactor
+        
+        mirrorAligmentIfRightToLeftLanguage()
+        
         if minimumScaleFactor != 0.0 {
             adjustsFontSizeToFitWidth = true
         }
         
-        let _text: String
-        
-        if startUp {
-            if let __text = self.text {
-                _text = __text
-            } else {
-                _text = contentType.initialText ?? "Change me"
-            }
-        } else {
-            _text = text ?? "Change me"
+        if self.text!.isEmpty && !(contentType.initialText?.isEmpty ?? true) {
+            self.text = contentType.initialText
         }
-        
-        if let contentTypeJVLabelAttributedText = contentType as? ContentTypeJVLabelAttributedText {
-            holdsAttributedText = true
-            if text != nil {
-                attributedText = ContentTypeAttributedText.createAttributedText(contentTypeAttributedText: contentTypeJVLabelAttributedText, customText: _text)?.attributedString
-            }
-        } else {
-            let contentTypeText = contentType as! ContentTypeJVLabelText
-            let contentTypeTextFont = contentTypeText.contentTypeTextFont!
-            
-            font = contentTypeTextFont.font
-            textColor = contentTypeTextFont.color
-            self.text = _text
-        }
-        
-        numberOfLines = contentType.numberOfLines
-        
-        // If this isn't natural, the user may have initialized a uilabel through the interface with a different
-        // textAligment than the acutal contentType.
-        // To prevent subcontenting again, we ignore the content type's text aligment
-        if textAlignment == .natural {
-            textAlignment = contentType.textAligment
-        }
+
+        change(contentType: contentType.contentTypeTextFont)
     }
     
-    public func setTextAligment(textAligment: NSTextAlignment) {
-        self.textAlignment = textAligment
-        mirrorAligmentIfRightToLeftLanguage()
+    public required init?(coder aDecoder: NSCoder) {
+        fatalError() // TODO: Unsupported()
     }
     
-    public func getType() -> ContentTypeJVLabel {
-        return contentType
+    func change(contentType: ContentTypeTextFont) {
+        font = contentType.font
+        textColor = contentType.color
     }
-    
 }

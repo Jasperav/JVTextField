@@ -3,6 +3,7 @@ import JVConstraintEdges
 import JVView
 import JVChangeableValue
 import JVInputValidator
+import JVDebugProcessorMacros
 
 open class JVTextField: UITextField, UITextFieldDelegate, ChangeableValues, InputValidateable {
     
@@ -71,7 +72,7 @@ open class JVTextField: UITextField, UITextFieldDelegate, ChangeableValues, Inpu
     }
     
     public required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        Unsupported()
     }
     
     private func setup() {

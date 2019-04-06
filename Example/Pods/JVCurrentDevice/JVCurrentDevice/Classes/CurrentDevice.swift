@@ -27,27 +27,6 @@ public struct CurrentDevice {
         }
     }
     
-    public static func getTopController() -> UIViewController? {
-        if var topController = UIApplication.shared.keyWindow?.rootViewController {
-            while let presentedViewController = topController.presentedViewController {
-                topController = presentedViewController
-            }
-            return topController
-        }
-        return nil
-        
-    }
-    
-    public static func getTopController<T: UIViewController>(viewController: T.Type) -> T? {
-        if var topController = UIApplication.shared.keyWindow?.rootViewController as? T {
-            while let presentedViewController = topController.presentedViewController as? T {
-                topController = presentedViewController
-            }
-            return topController
-        }
-        return nil
-    }
-    
     public static func getValue<T>(tablet: T, phone: T) -> T {
         return CurrentDevice.isTablet ? tablet : phone
     }
@@ -90,11 +69,13 @@ public struct CurrentDevice {
              .iPadMini3,
              .iPadMini4,
              .iPadPro9Inch,
-             .iPadPro12Inch,
              .iPadPro12Inch2,
              .iPadPro10Inch,
              .iPad6,
              .iPadPro11Inch,
+             .iPadPro12Inch,
+             .iPadAir3,
+             .iPadMini5,
              .iPadPro12Inch3:
             return .tablet
         }
